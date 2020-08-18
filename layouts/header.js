@@ -24,10 +24,11 @@ export default function Header() {
                 margin-right:5rem;
                 white-space: nowrap;
                 width: 80%;
+                background-color: #2d3135!important;
             }
             .navcontainer{
                 width:100%;
-                background-color: #343a40!important;
+                background-color: #2d3135!important;
             }
             .twitter{
                 margin-left: 1rem;
@@ -39,6 +40,7 @@ export default function Header() {
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="/">Bobbie</Navbar.Brand>
                 <Nav className="mr-auto">
+                    <Nav.Link href="/packs">Model Packs</Nav.Link>
                     <Nav.Link href="/notes">Notes</Nav.Link>
                     <Nav.Link href="/walls">Walls</Nav.Link>
                 </Nav>
