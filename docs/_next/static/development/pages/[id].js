@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout.module.css */ "./components/layout.module.css");
 /* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\components\\layout.js";
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\mc-site\\model-site\\components\\layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -115,7 +115,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header.module.css */ "./layouts/header.module.css");
 /* harmony import */ var _header_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_header_module_css__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\layouts\\header.js";
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\mc-site\\model-site\\layouts\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
  //import Collapse from 'react-bootstrap/Collapse';
@@ -4306,7 +4306,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".layout_container__2t4v2 {\r\n  max-width: 36rem;\r\n  padding: 0 1rem;\r\n  margin: 3rem auto 6rem;\r\n}", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/bobbie_model_pages/nextjs-blog/components/layout.module.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,eAAe;EACf,sBAAsB;AACxB","file":"layout.module.css","sourcesContent":[".container {\r\n  max-width: 36rem;\r\n  padding: 0 1rem;\r\n  margin: 3rem auto 6rem;\r\n}"]}]);
+exports.push([module.i, ".layout_container__2t4v2 {\r\n  max-width: 36rem;\r\n  padding: 0 1rem;\r\n  margin: 3rem auto 6rem;\r\n}", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/mc-site/model-site/components/layout.module.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,eAAe;EACf,sBAAsB;AACxB","file":"layout.module.css","sourcesContent":[".container {\r\n  max-width: 36rem;\r\n  padding: 0 1rem;\r\n  margin: 3rem auto 6rem;\r\n}"]}]);
 // Exports
 exports.locals = {
 	"container": "layout_container__2t4v2"
@@ -4323,7 +4323,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".header_navbarName__2Kcwq{\r\n    font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/bobbie_model_pages/nextjs-blog/layouts/header.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"header.module.css","sourcesContent":[".navbarName{\r\n    font-size: 50px;\r\n}\r\n"]}]);
+exports.push([module.i, ".header_navbarName__2Kcwq{\r\n    font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/mc-site/model-site/layouts/header.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"header.module.css","sourcesContent":[".navbarName{\r\n    font-size: 50px;\r\n}\r\n"]}]);
 // Exports
 exports.locals = {
 	"navbarName": "header_navbarName__2Kcwq"
@@ -5227,10 +5227,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js!./":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5C%5Bid%5D.js!./":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5C%5Bid%5D.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20709,7 +20709,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\pages\\[id].js";
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\mc-site\\model-site\\pages\\[id].js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -20829,11 +20829,33 @@ function Post(_ref) {
     }
   }
 
+  function preloadImages(imageSources) {
+    var _this = this;
+
+    if (imageSources) {
+      var allImages = [];
+      imageSources.forEach(function (i) {
+        allImages.push(__jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("a", {
+          rel: "preload",
+          href: i,
+          as: "image",
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 70,
+            columnNumber: 17
+          }
+        })));
+      });
+      return allImages;
+    }
+  }
+
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_layouts_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 78,
       columnNumber: 9
     }
   }), __jsx("style", {
@@ -20841,29 +20863,29 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 79,
       columnNumber: 9
     }
   }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    max-width: 40rem;\n                }\n                .container{\n                }\n                footer {\n                padding-top: 3rem;\n                padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .main {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #000000;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-radius: 10px;       \n                    border: 0.15rem solid #4d4d4d;            \n                }\n                .mainimage{\n                    height:55%;\n                    width:55%;\n                    margin-left:0px;\n                    background-color: #303030;\n                    float:left;\n                    border-radius: 10px;\n                }\n                .imagetext{\n                    width:45%;\n                    height:100%;\n                    float:right;\n                }\n                .p{\n                    text-align: center;\n                }\n                .titletext{\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-width: thin;\n                    width: 85%;\n                    margin: auto;\n                    border-radius: 10px;\n                    border: 0.15rem solid #4d4d4d;\n                }\n                .descriptiontext{\n                    font-size:1.5rem;\n                    text-align: center;\n                    margin: auto;\n                }\n                .description-holder{\n                    margin: auto;\n                    margin-top: 10px;\n                    border-radius: 10px;\n                    border: 0.15rem solid #4d4d4d;\n                    position:relative;\n                    width: 85%;\n                    height:100%;\n                    background-color: #000000;\n                }\n                .imagesubcontainer{\n                    margin-top:3rem;\n                    display:inline-block;\n                    width:100%;\n                    position:relative;\n                }\n                .downloadbuttons{\n                    width:37.5%;\n                    bottom:0;                          \n                    right:0;   \n                    left: 58.75%;\n                    position:absolute;\n                    height:3.35rem;\n                }\n                .arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 10px;\n                    border: 0.15rem solid #4d4d4d;\n                    width:3.35rem;\n                    height:3.35rem;\n                    top: calc(90% + 0.5rem);\n                    left: calc(55% - 3.35rem);\n                    outline: none !important;\n                }\n                .left-arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 10px;\n                    border: 0.15rem solid #4d4d4d;\n                    width:3.35rem;\n                    height:3.35rem;\n                    top: calc(90% + 0.5rem);\n                    left: 0;\n                    outline: none !important;\n                }\n                .arrow{\n                    position:relative;\n                    width:100%\n                }\n                .imageheader{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                }\n                .imageheaderstroke{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                    -webkit-text-stroke-width: .5rem;\n                    -webkit-text-stroke-color: black;                  \n                }\n            "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238,
+      lineNumber: 251,
       columnNumber: 13
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
+      lineNumber: 252,
       columnNumber: 17
     }
-  }, "walls")), __jsx("div", {
+  }, postData.model.name), preloadImages(postData.extra_images)), __jsx("div", {
     "class": "main",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241,
+      lineNumber: 255,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -20871,7 +20893,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
+      lineNumber: 256,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -20879,14 +20901,14 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243,
+      lineNumber: 257,
       columnNumber: 21
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 258,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -20896,7 +20918,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245,
+      lineNumber: 259,
       columnNumber: 29
     }
   }), __jsx("p", {
@@ -20904,7 +20926,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 260,
       columnNumber: 29
     }
   }, selectedDescription), __jsx("p", {
@@ -20912,7 +20934,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247,
+      lineNumber: 261,
       columnNumber: 29
     }
   }, selectedDescription), getButtons()), __jsx("div", {
@@ -20920,7 +20942,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 250,
+      lineNumber: 264,
       columnNumber: 25
     }
   }, __jsx("p", {
@@ -20928,7 +20950,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 251,
+      lineNumber: 265,
       columnNumber: 29
     }
   }, postData.model.name), __jsx("div", {
@@ -20936,7 +20958,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 252,
+      lineNumber: 266,
       columnNumber: 29
     }
   }, __jsx("p", {
@@ -20944,7 +20966,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 267,
       columnNumber: 33
     }
   }, postData.model.description))), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
@@ -20952,7 +20974,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256,
+      lineNumber: 270,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -20963,7 +20985,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257,
+      lineNumber: 271,
       columnNumber: 29
     }
   }, "Download"), getGithubLink())))));
@@ -20971,14 +20993,14 @@ function Post(_ref) {
 
 /***/ }),
 
-/***/ 5:
-/*!****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
-  \****************************************************************************************************************************************************************/
+/***/ 2:
+/*!****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5C%5Bid%5D.js ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5C%5Bid%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5C%5Bid%5D.js!./");
 
 
 /***/ }),
@@ -20994,5 +21016,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
