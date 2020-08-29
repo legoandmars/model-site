@@ -51,13 +51,41 @@ export default function Post({ postData }) {
             );
         }
     }
-    function getGithubLink(){
-        if(postData.github_link){
+    function getSecondButton(){
+        if(postData.second_button){
             return(
                 <>
-                    <Button type="button" variant="dark" href={`${postData.github_link}`}>Github Link</Button>
+                    <Button type="button" variant="dark" href={postData.second_button.link}>{postData.second_button.text}</Button>
                 </>
             );
+        }
+    }
+
+    function preloadImages(imageSources) {
+        if(imageSources){
+        const allImages = [];
+        imageSources
+          .forEach(i => {
+              allImages.push(
+              <>
+                <a rel="preload" href={i} as="image"></a>
+              </>)
+          });
+          return allImages;
+        }
+      }
+    
+    function getCredits(){
+        if(postData.fallguyscredits){
+            return(<>
+                <div class="credit-holder">
+                <h2 class="text-light creditheader">Credits</h2>
+                <p class="text-light credittext">Fall Guys Model: <a link class="graylink" href="https://sketchfab.com/3d-models/unofficial-fall-guy-598b22b710b44c22a962fecc9dd92312">Sketchfab</a><br/></p>
+                <p class="text-light credittext">Fall Guys Original Soundtrack created by Jukio Kallio and Daniel Hagström</p>
+                <p class="text-light credittext">SUPPORT & FOLLOW THE ORIGINAL ARTISTS: <a link class="graylink" href="https://jukiokallio.bandcamp.com/album/fall-guys-original-soundtrack">Bandcamp</a> / <a link class="graylink" href="https://open.spotify.com/album/2XbgThX8BaW5Euimr3JAPT?si=OjPnw2qSSby1I2vGZJtOsg">Spotify</a></p>
+                <p class="text-light credittext-bottom"><a link class="graylink" href="https://jukiokallio.com">More about Jukio Kallio</a> / <a link class="graylink" href="https://danielhagstrom.com">More about Daniel Hagström</a></p>
+                </div>
+            </>);
         }
     }
     return (
@@ -93,6 +121,12 @@ export default function Post({ postData }) {
                     max-width: 40rem;
                 }
                 .container{
+                    /* position: absolute;
+                    max-width:100%;
+                    max-height:100%;
+                    width:60%;
+                    left:20%;
+                    height:50%; */
                 }
                 footer {
                 padding-top: 3rem;
@@ -145,8 +179,7 @@ export default function Post({ postData }) {
                     text-align: center;
                 }
                 .titletext{
-                    font-size:3rem;
-                    font-size: 2vw;
+                    font-size:2.25rem;
                     text-align: center;
                     font-weight:bold;
                     background-color: #000000;
@@ -160,7 +193,10 @@ export default function Post({ postData }) {
                 .descriptiontext{
                     font-size:1.5rem;
                     text-align: center;
-                    margin: auto;
+                    margin-top: 2%;
+                    margin-bottom: 2%;
+                    margin-left: 3%;
+                    margin-right: 3%;
                 }
                 .description-holder{
                     margin: auto;
@@ -171,9 +207,10 @@ export default function Post({ postData }) {
                     width: 85%;
                     height:100%;
                     background-color: #000000;
+                    z-index:1;
                 }
                 .imagesubcontainer{
-                    margin-top:3rem;
+                    margin-top:2rem;
                     display:inline-block;
                     width:100%;
                     position:relative;
@@ -185,6 +222,7 @@ export default function Post({ postData }) {
                     left: 58.75%;
                     position:absolute;
                     height:3.35rem;
+                    z-index:2;
                 }
                 .arrow-button{
                     position:absolute;
@@ -194,7 +232,7 @@ export default function Post({ postData }) {
                     width:3.35rem;
                     height:3.35rem;
                     top: calc(90% + 0.5rem);
-                    left: calc(55% - 3.35rem);
+                    left: calc(55% - 3.3rem);
                     outline: none !important;
                 }
                 .left-arrow-button{
@@ -232,11 +270,63 @@ export default function Post({ postData }) {
                     -webkit-text-stroke-width: .5rem;
                     -webkit-text-stroke-color: black;                  
                 }
-            `}
+                .credit-holder{
+                    margin: auto;
+                    margin-top: 57.5%;
+                    border-radius: 10px;
+                    border: 0.15rem solid #4d4d4d;
+                    position:absolute;
+                    width: 96.75%;
+                    background-color: #000000;
+                    z-index:0;
+                    margin-bottom: 2%;
+                }
+                .creditheader{
+                    font-size:2.75rem;
+                    text-align: center;
+                    margin: auto;
+                }
+                .credittext{
+                    font-size:1.5rem;
+                    text-align: center;
+                    margin: auto;
+                }
+                .credittext-bottom{
+                    font-size:1.5rem;
+                    text-align: center;
+                    margin: auto;
+                    margin-bottom:0.7%;
+                }
+                .graylink{
+                    color: gray;
+                    text-decoration: underline;
+                }
+                .graylink:hover {
+                    color: #474747;
+                }                  
+
+                ::-webkit-scrollbar {
+                    width: 8px;
+                    background-color: transparent;
+                    -webkit-border-radius: 100px;
+                }
+                ::-webkit-scrollbar:hover {
+                    background-color: rgba(0, 0, 0, 0.09);
+                }
+                ::-webkit-scrollbar-thumb:vertical {
+                    background: rgba(0,0,0,0.5);
+                    -webkit-border-radius: 100px;
+                }
+                ::-webkit-scrollbar-thumb:vertical:active {
+                    background: rgba(0,0,0,0.61);
+                    -webkit-border-radius: 100px;
+                }
+        `}
             
             </style>
             <Head>
-                <title>walls</title>
+                <title>{postData.model.name}</title>
+                {preloadImages(postData.extra_images)}
             </Head>
             <div class="main">
                 <div class="container">
@@ -255,8 +345,9 @@ export default function Post({ postData }) {
                         </div>
                         <ButtonGroup className="d-flex downloadbuttons">
                             <Button type="button" variant="dark" href={`./${postData.file_name}`} download>Download</Button>
-                            {getGithubLink()}
+                            {getSecondButton()}
                         </ButtonGroup>
+                        {getCredits()}
                     </div>
                 </div>
           </div>
@@ -280,4 +371,3 @@ export async function getStaticPaths() {
       }
     }
   }
-  
