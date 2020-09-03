@@ -42,21 +42,28 @@ export default function Post({ postData }) {
             return(
             <>
                 <Button variant="dark" class="left-arrow-button" size="lg" onClick={()=>previousImage()}>
-                    <Image class="arrow float-right" src="arrow-left.png"></Image>
+                    <Image class="arrowleft" src="arrow-left.png"></Image>
                 </Button>
                 <Button variant="dark" class="arrow-button" size="lg" onClick={()=>nextImage()}>
-                    <Image class="arrow float-right" src="arrow.png"></Image>
+                    <Image class="arrow" src="arrow.png"></Image>
                 </Button>        
             </>
             );
         }
     }
-    function getSecondButton(){
+    function getDownloadButtons(){
         if(postData.second_button){
             return(
                 <>
-                    <Button type="button" variant="dark" href={postData.second_button.link}>{postData.second_button.text}</Button>
+                    <Button type="button" className="first" variant="dark" href={`./${postData.file_name}`} download>Download</Button>
+                    <Button type="button" className="second" variant="dark" href={postData.second_button.link}>{postData.second_button.text}</Button>
                 </>
+            );
+        }else {
+            return(
+            <>
+                <Button type="button" variant="dark" href={`./${postData.file_name}`} download>Download</Button>
+            </>
             );
         }
     }
@@ -80,12 +87,32 @@ export default function Post({ postData }) {
             return(<>
                 <div class="credit-holder">
                 <h2 class="text-light creditheader">Credits</h2>
-                <p class="text-light credittext">Fall Guys Model: <a link class="graylink" href="https://sketchfab.com/3d-models/unofficial-fall-guy-598b22b710b44c22a962fecc9dd92312">Sketchfab</a><br/></p>
+                <p class="text-light credittext">Fall Guy Model: <a link class="graylink" href="https://sketchfab.com/3d-models/unofficial-fall-guy-598b22b710b44c22a962fecc9dd92312">Sketchfab</a><br/></p>
+                <p class="text-light credittext">Sabers: <a link class="graylink" href="https://twitter.com/Hooi21">Hooi</a></p>
+                <p class="text-light credittext">Maps: <a link class="graylink" href="https://twitter.com/lethrial">Lethrial</a>, <a link class="graylink" href="https://twitter.com/One_narwhal">That_Narwhal</a>, <a link class="graylink" href="https://twitter.com/bytrius">Bytrius</a>, <a link class="graylink" href="https://twitter.com/ConnnnorJC">ConnorJC</a>, <a link class="graylink" href="https://twitter.com/Lonewolvez1">Lonewolvez</a>, <a link class="graylink" href="https://twitter.com/The_Caeden117">Caeden117</a>, <a link class="graylink" href="https://twitter.com/nomuffn">nomuffn</a></p>
                 <p class="text-light credittext">Fall Guys Original Soundtrack created by Jukio Kallio and Daniel Hagström</p>
                 <p class="text-light credittext">SUPPORT & FOLLOW THE ORIGINAL ARTISTS: <a link class="graylink" href="https://jukiokallio.bandcamp.com/album/fall-guys-original-soundtrack">Bandcamp</a> / <a link class="graylink" href="https://open.spotify.com/album/2XbgThX8BaW5Euimr3JAPT?si=OjPnw2qSSby1I2vGZJtOsg">Spotify</a></p>
                 <p class="text-light credittext-bottom"><a link class="graylink" href="https://jukiokallio.com">More about Jukio Kallio</a> / <a link class="graylink" href="https://danielhagstrom.com">More about Daniel Hagström</a></p>
                 </div>
             </>);
+        }
+    }
+
+    function getDonationPopup(){
+        if(postData.type == "pack"){
+            return(
+                <>
+                    <div class="donationpopup" id="donationpopup">
+                        <p class="text-light donationtext">Have a few extra bucks and want to support me in making awesome free model packs? Donate to my ko-fi!</p>
+                        <ButtonGroup className="d-flex donationbuttons">
+                            <Button type="button" variant="dark" className="button1" href="https://ko-fi.com/bobbievr" download>Donate</Button>
+                            <Button type="button" variant="dark" className="button2" onClick={()=>{
+                                document.getElementById("donationpopup").style.visibility = "hidden";
+                            }}>Close</Button>
+                        </ButtonGroup>
+                    </div>
+                </>
+            )
         }
     }
     return (
@@ -118,19 +145,19 @@ export default function Post({ postData }) {
                 }
     
                 .jumbotron .container {
-                    max-width: 40rem;
+                    /*max-width: 40rem;*/
                 }
                 .container{
-                    /* position: absolute;
+                    position: absolute;
                     max-width:100%;
                     max-height:100%;
                     width:60%;
                     left:20%;
-                    height:50%; */
+                    height:50%; 
                 }
                 footer {
-                padding-top: 3rem;
-                padding-bottom: 3rem;
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
                 }
     
                 footer p {
@@ -168,7 +195,7 @@ export default function Post({ postData }) {
                     margin-left:0px;
                     background-color: #303030;
                     float:left;
-                    border-radius: 10px;
+                    border-radius: 0.5vw;
                 }
                 .imagetext{
                     width:45%;
@@ -180,29 +207,29 @@ export default function Post({ postData }) {
                 }
                 .titletext{
                     font-size:2.25rem;
+                    font-size:1.9vw;
                     text-align: center;
                     font-weight:bold;
                     background-color: #000000;
-                    border-color: #4d4d4d;
-                    border-width: thin;
                     width: 85%;
                     margin: auto;
-                    border-radius: 10px;
-                    border: 0.15rem solid #4d4d4d;
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
                 }
                 .descriptiontext{
                     font-size:1.5rem;
+                    font-size:1.25vw;
                     text-align: center;
-                    margin-top: 2%;
-                    margin-bottom: 2%;
-                    margin-left: 3%;
-                    margin-right: 3%;
+                    margin-top: 0.5vw;
+                    margin-bottom: 0.5vw;
+                    margin-left: 0.75vw;
+                    margin-right: 0.75vw;
                 }
                 .description-holder{
                     margin: auto;
-                    margin-top: 10px;
-                    border-radius: 10px;
-                    border: 0.15rem solid #4d4d4d;
+                    margin-top: 0.25vw;
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
                     position:relative;
                     width: 85%;
                     height:100%;
@@ -210,45 +237,60 @@ export default function Post({ postData }) {
                     z-index:1;
                 }
                 .imagesubcontainer{
-                    margin-top:2rem;
+                    margin-top:2.5vw;
                     display:inline-block;
                     width:100%;
                     position:relative;
                 }
                 .downloadbuttons{
-                    width:37.5%;
+                    position:absolute;
+                    width: 37.5%;
                     bottom:0;                          
                     right:0;   
                     left: 58.75%;
-                    position:absolute;
-                    height:3.35rem;
+                    height:3vw;
                     z-index:2;
+                    top: calc(100% - 3vw);
                 }
                 .arrow-button{
                     position:absolute;
                     background-color: #000000;
-                    border-radius: 10px;
-                    border: 0.15rem solid #4d4d4d;
-                    width:3.35rem;
-                    height:3.35rem;
-                    top: calc(90% + 0.5rem);
-                    left: calc(55% - 3.3rem);
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
+                    width:3vw;
+                    height:3vw;
+                    top: calc(90% + 0.2vw);
+                    left: calc(55% - 3.0vw);
                     outline: none !important;
+                    padding:0;
+                    margin:0;
                 }
                 .left-arrow-button{
                     position:absolute;
                     background-color: #000000;
-                    border-radius: 10px;
-                    border: 0.15rem solid #4d4d4d;
-                    width:3.35rem;
-                    height:3.35rem;
-                    top: calc(90% + 0.5rem);
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
+                    width:3vw;
+                    height:3vw;
+                    top: calc(90% + 0.2vw);
                     left: 0;
                     outline: none !important;
+                    padding:0;
+                    margin:0;
                 }
                 .arrow{
-                    position:relative;
-                    width:100%
+                    position:absolute;
+                    left:0.375vw;
+                    top:0.375vw;
+                    width:2.25vw;
+                    height:2.25vw;
+                }
+                .arrowleft{
+                    position:absolute;
+                    right:0.375vw;
+                    top:0.375vw;
+                    width:2.25vw;
+                    height:2.25vw;
                 }
                 .imageheader{
                     position: absolute;
@@ -267,14 +309,14 @@ export default function Post({ postData }) {
                     font-weight:bold;
                     width: 55%;
                     margin: auto;
-                    -webkit-text-stroke-width: .5rem;
+                    -webkit-text-stroke-width: .4vw;
                     -webkit-text-stroke-color: black;                  
                 }
                 .credit-holder{
                     margin: auto;
                     margin-top: 57.5%;
-                    border-radius: 10px;
-                    border: 0.15rem solid #4d4d4d;
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
                     position:absolute;
                     width: 96.75%;
                     background-color: #000000;
@@ -282,17 +324,19 @@ export default function Post({ postData }) {
                     margin-bottom: 2%;
                 }
                 .creditheader{
-                    font-size:2.75rem;
+                    font-size:2.25vw;
                     text-align: center;
                     margin: auto;
                 }
                 .credittext{
                     font-size:1.5rem;
+                    font-size:1.25vw;
                     text-align: center;
                     margin: auto;
                 }
                 .credittext-bottom{
                     font-size:1.5rem;
+                    font-size:1.25vw;
                     text-align: center;
                     margin: auto;
                     margin-bottom:0.7%;
@@ -321,6 +365,73 @@ export default function Post({ postData }) {
                     background: rgba(0,0,0,0.61);
                     -webkit-border-radius: 100px;
                 }
+                .btn{
+                    font-size:1.25vw;
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
+                    position:absolute!important;
+                    max-height:100%;
+                    height:100%;
+                    max-width:100%;
+                    width:100%;
+                    top:0;
+                    padding:0;
+                    padding-top: 0.4vw;
+                    /*height:3vw!important;*/
+                }
+                .second{
+                    width:50%;
+                    left:50%;
+                }
+                .first{
+                    width:50%;
+                }
+                @media (max-aspect-ratio: 1/1) {
+                    .container {
+                        width: 95%;
+                        left: 2.5%;
+                    }
+                    .descriptiontext{
+                        font-size:2vw;
+                    }    
+                }     
+                .donationpopup{
+                    position: fixed;
+                    width:15%;
+                    left:85%;
+                    height:20%;
+                    top:80%;
+                    border-radius: 0.5vw;
+                    border: 0.10vw solid #4d4d4d;
+                    background-color: #000000;
+                }
+                .donationtext{
+                    font-size:1.5rem;
+                    font-size:1.0vw;
+                    text-align: center;
+                    margin-top: 0.5vw;
+                    margin-bottom: 0.5vw;
+                    margin-left: 0.75vw;
+                    margin-right: 0.75vw;
+                }        
+                .donationbuttons{
+                    left:5%;
+                    width:45%;
+                    height:25%;
+                }
+                .button1{
+                    font-size:1.2vw;
+                    padding:0;
+                    padding-top: 0.2vw;
+                    margin:0;
+                }
+                .button2{
+                    font-size:1.2vw;
+                    padding:0;
+                    padding-top: 0vw;
+                    margin:0;
+                    left:100%;
+                }
         `}
             
             </style>
@@ -329,6 +440,7 @@ export default function Post({ postData }) {
                 {preloadImages(postData.extra_images)}
             </Head>
             <div class="main">
+                {getDonationPopup()}
                 <div class="container">
                     <div class="imagesubcontainer">
                         <div>
@@ -336,6 +448,9 @@ export default function Post({ postData }) {
                             <p class="text-light imageheaderstroke">{selectedDescription}</p>
                             <p class="text-light imageheader">{selectedDescription}</p>
                             {getButtons()}
+                            <ButtonGroup className="d-flex downloadbuttons">
+                                {getDownloadButtons()}
+                            </ButtonGroup>
                         </div>
                         <div class="imagetext">
                             <p class="text-light titletext">{postData.model.name}</p>
@@ -343,10 +458,6 @@ export default function Post({ postData }) {
                                 <p class="text-light descriptiontext">{postData.model.description}</p>
                             </div>
                         </div>
-                        <ButtonGroup className="d-flex downloadbuttons">
-                            <Button type="button" variant="dark" href={`./${postData.file_name}`} download>Download</Button>
-                            {getSecondButton()}
-                        </ButtonGroup>
                         {getCredits()}
                     </div>
                 </div>

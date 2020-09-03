@@ -1,12 +1,12 @@
 [
     {
         "image_name": "bsfg.png",
-        "file_name": "MinecraftWallPack.zip",
+        "file_name": "FallGuysPack.zip",
         "type": "pack",
         "endpoint": "FallGuys",
         "model": {
-            "name": "Fall Guys Model Pack",
-            "description": "A fan-made Beat Saber Fall Guys model pack! This model pack contains: platforms, notes, sabers, walls, and hitsounds. It also includes charts of the entire Fall Guys OST. If you're confused on how to install this pack, click the Installation button for instructions."
+            "name": "Fall Guys Pack",
+            "description": "A fan-made Beat Saber Fall Guys model + map pack! This model pack contains: platforms, notes, sabers, walls, and hitsounds. The entire Fall Guys OST has also been charted and is included! If you're confused on how to install this pack, click the Installation button for a tutorial."
         },
         "extra_images": [
             "bsfg.png",
@@ -34,7 +34,8 @@
             "Wall - Slime",
             "Wall - Wall Guy"
         ],
-        "fallguyscredits": true
+        "fallguyscredits": true,
+        "second_button" : {"link": "https://docs.google.com/document/d/1Tfoe_zUr96CaUezJN3nTOnygsYPLuXi-eiZ3W0a9Iss/edit", "text": "Installation"}    
     },
     {
         "image_name": "mcspacelogo.png",

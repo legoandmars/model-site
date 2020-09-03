@@ -22,7 +22,7 @@ export function modelPage(allModels, modelType){
     // send it off to be rendered by model-list;
     for (let i = 0; i < allModels.length; i++) {
         const model = allModels[i];
-        if(model.type == modelType || modelType == "all Model"){
+        if((model.type == modelType || modelType == "all Model") && !model.hidden){
             modelElementList.push(getCard(model["image_name"], model["file_name"], model.endpoint))
         }
     }
