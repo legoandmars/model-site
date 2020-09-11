@@ -115,6 +115,23 @@ export default function Post({ postData }) {
             )
         }
     }
+
+    function getShortnedDesc(){
+        if(postData.model.description.length > 150){
+            return(postData.model.description.substring(0, 146)+"...")
+        }else{
+            return postData.model.description;
+        }
+    }
+
+    function getRedirect(){
+        if(postData.model.name == "Solar System Pack"){
+            return(
+            <>
+                <meta http-equiv = "refresh" content = "0; url = https://bsmodel.city/SolarSystemPack" />
+            </>)
+        }
+    }
     return (
       <>
         <Header></Header>
@@ -437,6 +454,12 @@ export default function Post({ postData }) {
             </style>
             <Head>
                 <title>{postData.model.name}</title>
+                <meta content="bobbie.dev" property="og:site_name"></meta>
+                <meta content={postData.model.name} property="og:title"></meta>
+                <meta content={getShortnedDesc()} property="og:description"></meta>
+                <meta content="#96e3ff" name="theme-color"></meta>
+                <meta content={"https://bobbie.dev/"+postData.image_name} property="og:image"></meta>
+                {getRedirect()}
                 {preloadImages(postData.extra_images)}
             </Head>
             <div class="main">
