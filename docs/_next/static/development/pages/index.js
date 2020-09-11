@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\packs.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./layouts/header.js":
 /*!***************************!*\
@@ -299,11 +299,64 @@ function modelPage(allModels, modelType) {
     }
   }
 
+  function getDescription() {
+    if (modelType.toLowerCase() !== "all model") {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("meta", {
+        content: modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s",
+        property: "og:title",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 17
+        }
+      }), __jsx("meta", {
+        content: "Download Bobbie's Custom ".concat(modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s", " for Beat Saber."),
+        property: "og:description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 17
+        }
+      }));
+    } else {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("meta", {
+        content: "Bobbie's Model Site",
+        property: "og:title",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }
+      }), __jsx("meta", {
+        content: "Download Bobbie's model packs, notes, walls, and more!",
+        property: "og:description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }
+      }), __jsx("meta", {
+        content: "https://bobbie.dev/bobbie.png",
+        property: "og:image",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }
+      }));
+    }
+  }
+
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_layouts_header__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 49,
       columnNumber: 13
     }
   }), __jsx("style", {
@@ -311,29 +364,47 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 50,
       columnNumber: 13
     }
   }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    max-width: 40rem;\n                }\n                .container{\n                }\n                footer {\n                padding-top: 3rem;\n                padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .album {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #303030;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                }\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n            "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 132,
       columnNumber: 13
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 133,
       columnNumber: 17
     }
-  }, modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s")), __jsx("div", {
+  }, modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s"), __jsx("meta", {
+    content: "bobbie.dev",
+    property: "og:site_name",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134,
+      columnNumber: 17
+    }
+  }), __jsx("meta", {
+    content: "#96e3ff",
+    name: "theme-color",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 17
+    }
+  }), getDescription()), __jsx("div", {
     "class": "album py-5",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 138,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -341,7 +412,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 139,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -349,7 +420,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 140,
       columnNumber: 21
     }
   }, modelElementList))));
@@ -5276,21 +5347,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cpacks.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cpacks.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cindex.js!./":
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cindex.js ***!
+  \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/packs", function() {
-      var mod = __webpack_require__(/*! ./pages/packs.js */ "./pages/packs.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/packs.js */ "./pages/packs.js", function() {
-          if(!next.router.components["/packs"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/packs.js */ "./pages/packs.js")
-          next.router.update("/packs", updatedPage)
+        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -20736,9 +20807,9 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "./pages/packs.js":
+/***/ "./pages/index.js":
 /*!************************!*\
-  !*** ./pages/packs.js ***!
+  !*** ./pages/index.js ***!
   \************************/
 /*! exports provided: __N_SSG, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -20753,19 +20824,19 @@ var __N_SSG = true;
 function walls(_ref) {
   var postData = _ref.postData;
   // first, get all valid models.
-  return Object(_layouts_model_list__WEBPACK_IMPORTED_MODULE_0__["modelPage"])(postData, "pack");
+  return Object(_layouts_model_list__WEBPACK_IMPORTED_MODULE_0__["modelPage"])(postData, "all Model");
 }
 
 /***/ }),
 
-/***/ 3:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cpacks.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 1:
+/*!*****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cindex.js ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cpacks.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cpacks.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -20781,5 +20852,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=packs.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=index.js.map
