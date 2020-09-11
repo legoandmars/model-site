@@ -26,6 +26,24 @@ export function modelPage(allModels, modelType){
             modelElementList.push(getCard(model["image_name"], model["file_name"], model.endpoint))
         }
     }
+
+    function getDescription(){
+        if(modelType.toLowerCase() !== "all model"){
+            return(
+            <>
+                <meta content={modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"} property="og:title"></meta>
+                <meta content={`Download Bobbie's Custom ${modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"} for Beat Saber.`} property="og:description"></meta>
+            </>)
+        }else{
+            return(
+            <>
+                <meta content="Bobbie's Model Site" property="og:title"></meta>
+                <meta content="Download Bobbie's model packs, notes, walls, and more!" property="og:description"></meta>
+                <meta content="https://bobbie.dev/bobbie.png" property="og:image"></meta>
+            </>)
+        }
+    }
+
     return (
         <>
             <Header></Header>
@@ -113,6 +131,9 @@ export function modelPage(allModels, modelType){
             </style>
             <Head>
                 <title>{modelType.charAt(0).toUpperCase() + modelType.slice(1)+"s"}</title>
+                <meta content="bobbie.dev" property="og:site_name"></meta>
+                <meta content="#96e3ff" name="theme-color"></meta>
+                {getDescription()}
             </Head>
             <div class="album py-5">
                 <div class="container">
