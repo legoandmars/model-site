@@ -43,7 +43,7 @@ function Header() {
       lineNumber: 12,
       columnNumber: 9
     }
-  }, "\n            .navbar-brand {\n                font-size: 1.25vw;\n                font-weight: bold;\n                /*padding-right: .45vw;\n                padding-left: .45vw; */   \n                padding-right: 0.3vw!important;\n                padding-left: 0.3vw!important;  \n                margin-right:1vw;\n            }\n            .navbar-nav{\n                font-size: 1.05vw;\n                background-color: transparent;\n                color: #ffffff;\n            }\n            .navbar{\n                margin-left:10%;\n                height:100%;\n                margin-right:5rem;\n                white-space: nowrap;\n                width: 80%;\n                background-color: #2d3135!important;\n                padding: 0px;\n            }\n            .navcontainer{\n                width:100%;\n                height:3.25vw;\n                background-color: #2d3135!important;\n            }\n            .twitter{\n                /*margin-left: 1rem*/;\n                opacity: 50%;\n            }\n            .mr-auto{\n                padding: 0px;\n            }\n            .nav-link{\n                padding: 0vw;\n                padding-right: 0.45vw!important;\n                padding-left: 0.45vw!important;\n            }\n            .twitterimg{\n                width:1.82vw;\n                height:1.82vw;\n            }\n            .donate{\n                padding-left: 52.75vw!important;\n                padding-right: 0!important;\n            }\n            @media (max-aspect-ratio: 1/1) {\n                .navcontainer {\n                    height:6.5vw;\n                }\n                .navbar-brand {\n                    font-size: 2.5vw;\n                }\n                .navbar-nav {\n                    font-size: 2.10vw;\n                    padding-top:0.25vw;\n                }\n                .donate{\n                    padding-left: 30.75vw!important;\n                    padding-right: 0!important;\n                }    \n                .twitterimg{\n                    width:3.64vw;\n                    height:3.64vw;\n                }    \n            }\n            "), __jsx("div", {
+  }, "\n            .navbar-brand {\n                font-size: 1.25vw;\n                font-weight: bold;\n                /*padding-right: .45vw;\n                padding-left: .45vw; */   \n                padding-right: 0.3vw!important;\n                padding-left: 0.3vw!important;  \n                margin-right:1vw;\n            }\n            .navbar-nav{\n                font-size: 1.05vw;\n                background-color: transparent;\n                color: #ffffff;\n            }\n            .navbar{\n                margin-left:10%;\n                height:100%;\n                margin-right:5rem;\n                white-space: nowrap;\n                width: 80%;\n                background-color: #2d3135!important;\n                padding: 0px;\n            }\n            .navcontainer{\n                width:100%;\n                height:3.25vw;\n                background-color: #2d3135!important;\n            }\n            .twitter{\n                /*margin-left: 1rem*/;\n                opacity: 50%;\n            }\n            .mr-auto{\n                padding: 0px;\n            }\n            .nav-link{\n                padding: 0vw;\n                padding-right: 0.45vw!important;\n                padding-left: 0.45vw!important;\n            }\n            .twitterimg{\n                width:1.82vw;\n                height:1.82vw;\n            }\n            .donate{\n                padding-left: 45.4vw!important;\n                padding-right: 0!important;\n            }\n            @media (max-aspect-ratio: 1/1) {\n                .navcontainer {\n                    height:6.5vw;\n                }\n                .navbar-brand {\n                    font-size: 2.5vw;\n                }\n                .navbar-nav {\n                    font-size: 2.10vw;\n                    padding-top:0.25vw;\n                }\n                .donate{\n                    padding-left: 17vw!important;\n                    padding-right: 0!important;\n                }    \n                .twitterimg{\n                    width:3.64vw;\n                    height:3.64vw;\n                }    \n            }\n            "), __jsx("div", {
     "class": "navcontainer",
     __self: this,
     __source: {
@@ -101,19 +101,27 @@ function Header() {
       columnNumber: 21
     }
   }, "Walls"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
-    href: "https://ko-fi.com/bobbievr",
-    className: "donate",
+    href: "https://quest.bobbie.dev/",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91,
       columnNumber: 21
     }
+  }, "Quest Models"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    href: "https://ko-fi.com/bobbievr",
+    className: "donate",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 21
+    }
   }, "Donate")), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 94,
       columnNumber: 17
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Brand, {
@@ -122,7 +130,7 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 95,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -132,7 +140,7 @@ function Header() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 96,
       columnNumber: 21
     }
   }))))));
@@ -20829,7 +20837,7 @@ function walls(_ref) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cmc-site%5Cmodel-site%5Cpages%5Cindex.js ***!
   \*****************************************************************************************************************************************/
@@ -20852,5 +20860,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
