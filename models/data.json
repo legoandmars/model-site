@@ -1,5 +1,25 @@
 [
     {
+        "image_name": "scoresaber.png",
+        "file_name": "Scoresaber Notes.bloq",
+        "type": "note",
+        "endpoint": "Scoresaber",
+        "model": {
+            "name": "Scoresaber Notes",
+            "description": "PP go BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+        }
+    },
+    {
+        "image_name": "jello.png",
+        "file_name": "Jello.bloq",
+        "type": "note",
+        "endpoint": "Jello",
+        "model": {
+            "name": "Jello",
+            "description": "Wiggly jello notes that use dynamic bones."
+        }
+    },
+    {
         "image_name": "Skewed_notes.png",
         "file_name": "Skewed Notes.bloq",
         "type": "note",
