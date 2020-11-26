@@ -20707,10 +20707,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
 
 var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\pages\\[id].js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -20774,7 +20777,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 46,
           columnNumber: 17
         }
       }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -20783,7 +20786,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 47,
           columnNumber: 21
         }
       })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -20796,7 +20799,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 49,
           columnNumber: 17
         }
       }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -20805,7 +20808,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48,
+          lineNumber: 50,
           columnNumber: 21
         }
       })));
@@ -20814,30 +20817,58 @@ function Post(_ref) {
 
   function getDownloadButtons() {
     if (postData.second_button) {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        type: "button",
-        className: "first",
-        variant: "dark",
-        href: "./".concat(postData.file_name),
-        download: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58,
-          columnNumber: 21
-        }
-      }, "Download"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        type: "button",
-        className: "second",
-        variant: "dark",
-        href: postData.second_button.link,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59,
-          columnNumber: 21
-        }
-      }, postData.second_button.text));
+      if (postData.second_button.download) {
+        return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+          type: "button",
+          className: "first",
+          variant: "dark",
+          href: "./".concat(postData.file_name),
+          download: true,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 61,
+            columnNumber: 25
+          }
+        }, "Download"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+          type: "button",
+          className: "second",
+          variant: "dark",
+          href: "./".concat(postData.second_button.link),
+          download: true,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 62,
+            columnNumber: 25
+          }
+        }, postData.second_button.text));
+      } else {
+        return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+          type: "button",
+          className: "first",
+          variant: "dark",
+          href: "./".concat(postData.file_name),
+          download: true,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 68,
+            columnNumber: 25
+          }
+        }, "Download"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
+          type: "button",
+          className: "second",
+          variant: "dark",
+          href: postData.second_button.link,
+          __self: this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 69,
+            columnNumber: 25
+          }
+        }, postData.second_button.text));
+      }
     } else {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
         type: "button",
@@ -20847,7 +20878,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 76,
           columnNumber: 17
         }
       }, "Download"));
@@ -20867,7 +20898,7 @@ function Post(_ref) {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78,
+            lineNumber: 89,
             columnNumber: 17
           }
         })));
@@ -20883,7 +20914,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 99,
           columnNumber: 17
         }
       }, __jsx("h2", {
@@ -20891,7 +20922,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 100,
           columnNumber: 17
         }
       }, "Credits"), __jsx("p", {
@@ -20899,7 +20930,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 101,
           columnNumber: 17
         }
       }, "Fall Guy Model: ", __jsx("a", {
@@ -20909,14 +20940,14 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 101,
           columnNumber: 66
         }
       }, "Sketchfab"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 101,
           columnNumber: 196
         }
       })), __jsx("p", {
@@ -20924,7 +20955,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 102,
           columnNumber: 17
         }
       }, "Sabers: ", __jsx("a", {
@@ -20934,7 +20965,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 102,
           columnNumber: 58
         }
       }, "Hooi")), __jsx("p", {
@@ -20942,7 +20973,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 17
         }
       }, "Maps: ", __jsx("a", {
@@ -20952,7 +20983,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 56
         }
       }, "Lethrial"), ", ", __jsx("a", {
@@ -20962,7 +20993,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 131
         }
       }, "That_Narwhal"), ", ", __jsx("a", {
@@ -20972,7 +21003,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 213
         }
       }, "Bytrius"), ", ", __jsx("a", {
@@ -20982,7 +21013,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 286
         }
       }, "ConnorJC"), ", ", __jsx("a", {
@@ -20992,7 +21023,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 363
         }
       }, "Lonewolvez"), ", ", __jsx("a", {
@@ -21002,7 +21033,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 443
         }
       }, "Caeden117"), ", ", __jsx("a", {
@@ -21012,7 +21043,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 103,
           columnNumber: 524
         }
       }, "nomuffn")), __jsx("p", {
@@ -21020,7 +21051,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93,
+          lineNumber: 104,
           columnNumber: 17
         }
       }, "Fall Guys Original Soundtrack created by Jukio Kallio and Daniel Hagstr\xF6m"), __jsx("p", {
@@ -21028,7 +21059,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 105,
           columnNumber: 17
         }
       }, "SUPPORT & FOLLOW THE ORIGINAL ARTISTS: ", __jsx("a", {
@@ -21038,7 +21069,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 105,
           columnNumber: 89
         }
       }, "Bandcamp"), " / ", __jsx("a", {
@@ -21048,7 +21079,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 105,
           columnNumber: 205
         }
       }, "Spotify")), __jsx("p", {
@@ -21056,7 +21087,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 106,
           columnNumber: 17
         }
       }, __jsx("a", {
@@ -21066,7 +21097,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 106,
           columnNumber: 57
         }
       }, "More about Jukio Kallio"), " / ", __jsx("a", {
@@ -21076,7 +21107,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 106,
           columnNumber: 143
         }
       }, "More about Daniel Hagstr\xF6m"))));
@@ -21091,7 +21122,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105,
+          lineNumber: 116,
           columnNumber: 21
         }
       }, __jsx("p", {
@@ -21099,7 +21130,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 117,
           columnNumber: 25
         }
       }, "Have a few extra bucks and want to support me in making awesome free model packs? Donate to my ko-fi!"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
@@ -21107,7 +21138,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107,
+          lineNumber: 118,
           columnNumber: 25
         }
       }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -21119,7 +21150,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 119,
           columnNumber: 29
         }
       }, "Donate"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -21132,7 +21163,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109,
+          lineNumber: 120,
           columnNumber: 29
         }
       }, "Close"))));
@@ -21155,18 +21186,23 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 142,
           columnNumber: 17
         }
       }));
     }
   }
 
+  function replaceLinks(text) {
+    var html = text.replace(/\[([^\]]+)\]\(([^\)]+)\)/, '<a href="$2">$1</a>');
+    return html;
+  }
+
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_layouts_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 153,
       columnNumber: 9
     }
   }), __jsx("style", {
@@ -21174,21 +21210,21 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 154,
       columnNumber: 9
     }
   }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    /*max-width: 40rem;*/\n                }\n                .container{\n                    position: absolute;\n                    max-width:100%;\n                    max-height:100%;\n                    width:60%;\n                    left:20%;\n                    height:50%; \n                }\n                footer {\n                    padding-top: 3rem;\n                    padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .main {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #000000;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-radius: 10px;       \n                    border: 0.15rem solid #4d4d4d;            \n                }\n                .mainimage{\n                    height:55%;\n                    width:55%;\n                    margin-left:0px;\n                    background-color: #303030;\n                    float:left;\n                    border-radius: 0.5vw;\n                }\n                .imagetext{\n                    width:45%;\n                    height:100%;\n                    float:right;\n                }\n                .p{\n                    text-align: center;\n                }\n                .titletext{\n                    font-size:2.25rem;\n                    font-size:1.9vw;\n                    text-align: center;\n                    font-weight:bold;\n                    background-color: #000000;\n                    width: 85%;\n                    margin: auto;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                }\n                .descriptiontext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }\n                .description-holder{\n                    margin: auto;\n                    margin-top: 0.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:relative;\n                    width: 85%;\n                    height:100%;\n                    background-color: #000000;\n                    z-index:1;\n                }\n                .imagesubcontainer{\n                    margin-top:2.5vw;\n                    display:inline-block;\n                    width:100%;\n                    position:relative;\n                }\n                .downloadbuttons{\n                    position:absolute;\n                    width: 37.5%;\n                    bottom:0;                          \n                    right:0;   \n                    left: 58.75%;\n                    height:3vw;\n                    z-index:2;\n                    top: calc(100% - 3vw);\n                }\n                .arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: calc(55% - 3.0vw);\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .left-arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: 0;\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .arrow{\n                    position:absolute;\n                    left:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .arrowleft{\n                    position:absolute;\n                    right:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .imageheader{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                }\n                .imageheaderstroke{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                    -webkit-text-stroke-width: .4vw;\n                    -webkit-text-stroke-color: black;                  \n                }\n                .credit-holder{\n                    margin: auto;\n                    margin-top: 57.5%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute;\n                    width: 96.75%;\n                    background-color: #000000;\n                    z-index:0;\n                    margin-bottom: 2%;\n                }\n                .creditheader{\n                    font-size:2.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext-bottom{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                    margin-bottom:0.7%;\n                }\n                .graylink{\n                    color: gray;\n                    text-decoration: underline;\n                }\n                .graylink:hover {\n                    color: #474747;\n                }                  \n\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n                .btn{\n                    font-size:1.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute!important;\n                    max-height:100%;\n                    height:100%;\n                    max-width:100%;\n                    width:100%;\n                    top:0;\n                    padding:0;\n                    padding-top: 0.4vw;\n                    /*height:3vw!important;*/\n                }\n                .second{\n                    width:50%;\n                    left:50%;\n                }\n                .first{\n                    width:50%;\n                }\n                @media (max-aspect-ratio: 1/1) {\n                    .container {\n                        width: 95%;\n                        left: 2.5%;\n                    }\n                    .descriptiontext{\n                        font-size:2vw;\n                    }    \n                }     \n                .donationpopup{\n                    position: fixed;\n                    width:15%;\n                    left:85%;\n                    height:20%;\n                    top:80%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    background-color: #000000;\n                }\n                .donationtext{\n                    font-size:1.5rem;\n                    font-size:1.0vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }        \n                .donationbuttons{\n                    left:5%;\n                    width:45%;\n                    height:25%;\n                }\n                .button1{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0.2vw;\n                    margin:0;\n                }\n                .button2{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0vw;\n                    margin:0;\n                    left:100%;\n                }\n        "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 455,
+      lineNumber: 471,
       columnNumber: 13
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 456,
+      lineNumber: 472,
       columnNumber: 17
     }
   }, postData.model.name), __jsx("meta", {
@@ -21197,7 +21233,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 457,
+      lineNumber: 473,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21206,7 +21242,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 458,
+      lineNumber: 474,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21215,7 +21251,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 459,
+      lineNumber: 475,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21224,7 +21260,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 460,
+      lineNumber: 476,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21233,7 +21269,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 461,
+      lineNumber: 477,
       columnNumber: 17
     }
   }), getRedirect(), preloadImages(postData.extra_images)), __jsx("div", {
@@ -21241,7 +21277,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 465,
+      lineNumber: 481,
       columnNumber: 13
     }
   }, getDonationPopup(), __jsx("div", {
@@ -21249,7 +21285,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 467,
+      lineNumber: 483,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -21257,14 +21293,14 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 468,
+      lineNumber: 484,
       columnNumber: 21
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 469,
+      lineNumber: 485,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -21274,7 +21310,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 470,
+      lineNumber: 486,
       columnNumber: 29
     }
   }), __jsx("p", {
@@ -21282,7 +21318,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 471,
+      lineNumber: 487,
       columnNumber: 29
     }
   }, selectedDescription), __jsx("p", {
@@ -21290,7 +21326,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 472,
+      lineNumber: 488,
       columnNumber: 29
     }
   }, selectedDescription), getButtons(), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
@@ -21298,7 +21334,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 474,
+      lineNumber: 490,
       columnNumber: 29
     }
   }, getDownloadButtons())), __jsx("div", {
@@ -21306,7 +21342,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 478,
+      lineNumber: 494,
       columnNumber: 25
     }
   }, __jsx("p", {
@@ -21314,7 +21350,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 479,
+      lineNumber: 495,
       columnNumber: 29
     }
   }, postData.model.name), __jsx("div", {
@@ -21322,23 +21358,26 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 480,
+      lineNumber: 496,
       columnNumber: 29
     }
   }, __jsx("p", {
     "class": "text-light descriptiontext",
+    dangerouslySetInnerHTML: {
+      __html: replaceLinks(postData.model.description)
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 481,
+      lineNumber: 497,
       columnNumber: 33
     }
-  }, postData.model.description))), getCredits()))));
+  }))), getCredits()))));
 }
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
   \****************************************************************************************************************************************************************/
@@ -21361,5 +21400,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
