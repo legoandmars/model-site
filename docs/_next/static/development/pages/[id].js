@@ -21119,6 +21119,321 @@ function Post(_ref) {
           columnNumber: 143
         }
       }, "More about Daniel Hagstr\xF6m"))));
+    } else if (postData.fnfcredits) {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+        "class": "credit-holder",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 17
+        }
+      }, __jsx("h2", {
+        "class": "text-light creditheader",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113,
+          columnNumber: 17
+        }
+      }, "Credits"), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114,
+          columnNumber: 17
+        }
+      }, "Thank you to the wonderful mappers that helped chart songs for this pack: ", __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114,
+          columnNumber: 124
+        }
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 17
+        }
+      }, __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/NokahVR",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 50
+        }
+      }, "Nokah"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/LmoaNolan",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 121
+        }
+      }, "nolanLMOA"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/oddloop_",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 198
+        }
+      }, "oddloop"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/MystikmolR",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 272
+        }
+      }, "Mystikmol"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/KikaeAeon",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 350
+        }
+      }, "KikaeAeon"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/One_narwhal",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 427
+        }
+      }, "That_Narwhal"), ",", __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 17
+        }
+      }), __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/nomuffn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 26
+        }
+      }, "muffn"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/skeaary",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 97
+        }
+      }, "skeary"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/TheRealHoppaw",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 169
+        }
+      }, "Hoppaw"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/plusonerabbit",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 247
+        }
+      }, "Rabbit"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/TM0D_",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 325
+        }
+      }, "TM0D"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/lethrial",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 393
+        }
+      }, "Lethrial"), ", ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/anothershad",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 468
+        }
+      }, "shad"), ", and ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/when_pink",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116,
+          columnNumber: 546
+        }
+      }, "Pink")), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 17
+        }
+      }), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 17
+        }
+      }, "Friday Night Funkin was created by ninjamuffin99. Play the game ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://ninja-muffin24.itch.io/funkin",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 114
+        }
+      }, "here"), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 192
+        }
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 17
+        }
+      }, "Friday Night Funkin Original Soundtrack by ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://kawaisprite.bandcamp.com/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 93
+        }
+      }, "Kawai Sprite"), " and ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://bassetmusic.bandcamp.com/",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 180
+        }
+      }, "Basset"), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 256
+        }
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 17
+        }
+      }, "Friday Night Funkin Character Models: ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://skfb.ly/onHYD",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 88
+        }
+      }, "Cally3D"), " on Sketchfab", __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 166
+        }
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 17
+        }
+      }, "Sabers by ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/Okachamie",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 60
+        }
+      }, "Okachamie"), " and additional animation contributions by ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/ThisIsBennyK",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 178
+        }
+      }, "Ben Kurtin"), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121,
+          columnNumber: 257
+        }
+      }))));
     }
   }
 
@@ -21130,7 +21445,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116,
+          lineNumber: 132,
           columnNumber: 21
         }
       }, __jsx("p", {
@@ -21138,7 +21453,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117,
+          lineNumber: 133,
           columnNumber: 25
         }
       }, "Have a few extra bucks and want to support me in making awesome free model packs? Donate to my ko-fi!"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
@@ -21146,7 +21461,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118,
+          lineNumber: 134,
           columnNumber: 25
         }
       }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -21158,7 +21473,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119,
+          lineNumber: 135,
           columnNumber: 29
         }
       }, "Donate"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -21171,7 +21486,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120,
+          lineNumber: 136,
           columnNumber: 29
         }
       }, "Close"))));
@@ -21194,7 +21509,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142,
+          lineNumber: 158,
           columnNumber: 17
         }
       }));
@@ -21210,7 +21525,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 170,
       columnNumber: 9
     }
   }), __jsx("style", {
@@ -21218,21 +21533,21 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 171,
       columnNumber: 9
     }
   }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    /*max-width: 40rem;*/\n                }\n                .container{\n                    position: absolute;\n                    max-width:100%;\n                    max-height:100%;\n                    width:60%;\n                    left:20%;\n                    height:50%; \n                }\n                footer {\n                    padding-top: 3rem;\n                    padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .main {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #000000;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-radius: 10px;       \n                    border: 0.15rem solid #4d4d4d;            \n                }\n                .mainimage{\n                    height:55%;\n                    width:55%;\n                    margin-left:0px;\n                    background-color: #303030;\n                    float:left;\n                    border-radius: 0.5vw;\n                }\n                .imagetext{\n                    width:45%;\n                    height:100%;\n                    float:right;\n                }\n                .p{\n                    text-align: center;\n                }\n                .titletext{\n                    font-size:2.25rem;\n                    font-size:1.9vw;\n                    text-align: center;\n                    font-weight:bold;\n                    background-color: #000000;\n                    width: 85%;\n                    margin: auto;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                }\n                .descriptiontext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }\n                .description-holder{\n                    margin: auto;\n                    margin-top: 0.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:relative;\n                    width: 85%;\n                    height:100%;\n                    background-color: #000000;\n                    z-index:1;\n                }\n                .imagesubcontainer{\n                    margin-top:2.5vw;\n                    display:inline-block;\n                    width:100%;\n                    position:relative;\n                }\n                .downloadbuttons{\n                    position:absolute;\n                    width: 37.5%;\n                    bottom:0;                          \n                    right:0;   \n                    left: 58.75%;\n                    height:3vw;\n                    z-index:2;\n                    top: calc(100% - 3vw);\n                }\n                .arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: calc(55% - 3.0vw);\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .left-arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: 0;\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .arrow{\n                    position:absolute;\n                    left:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .arrowleft{\n                    position:absolute;\n                    right:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .imageheader{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                }\n                .imageheaderstroke{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                    -webkit-text-stroke-width: .4vw;\n                    -webkit-text-stroke-color: black;                  \n                }\n                .credit-holder{\n                    margin: auto;\n                    margin-top: 57.5%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute;\n                    width: 96.75%;\n                    background-color: #000000;\n                    z-index:0;\n                    margin-bottom: 2%;\n                }\n                .creditheader{\n                    font-size:2.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext-bottom{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                    margin-bottom:0.7%;\n                }\n                .graylink{\n                    color: gray;\n                    text-decoration: underline;\n                }\n                .graylink:hover {\n                    color: #474747;\n                }                  \n\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n                .btn{\n                    font-size:1.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute!important;\n                    max-height:100%;\n                    height:100%;\n                    max-width:100%;\n                    width:100%;\n                    top:0;\n                    padding:0;\n                    padding-top: 0.4vw;\n                    /*height:3vw!important;*/\n                }\n                .second{\n                    width:50%;\n                    left:50%;\n                }\n                .first{\n                    width:50%;\n                }\n                @media (max-aspect-ratio: 1/1) {\n                    .container {\n                        width: 95%;\n                        left: 2.5%;\n                    }\n                    .descriptiontext{\n                        font-size:2vw;\n                    }    \n                }     \n                .donationpopup{\n                    position: fixed;\n                    width:15%;\n                    left:85%;\n                    height:20%;\n                    top:80%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    background-color: #000000;\n                }\n                .donationtext{\n                    font-size:1.5rem;\n                    font-size:1.0vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }        \n                .donationbuttons{\n                    left:5%;\n                    width:45%;\n                    height:25%;\n                }\n                .button1{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0.2vw;\n                    margin:0;\n                }\n                .button2{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0vw;\n                    margin:0;\n                    left:100%;\n                }\n        "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 472,
+      lineNumber: 488,
       columnNumber: 13
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 473,
+      lineNumber: 489,
       columnNumber: 17
     }
   }, postData.model.name), __jsx("meta", {
@@ -21241,7 +21556,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 474,
+      lineNumber: 490,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21250,7 +21565,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 475,
+      lineNumber: 491,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21259,7 +21574,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 476,
+      lineNumber: 492,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21268,7 +21583,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 477,
+      lineNumber: 493,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21277,7 +21592,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 478,
+      lineNumber: 494,
       columnNumber: 17
     }
   }), getRedirect(), preloadImages(postData.extra_images)), __jsx("div", {
@@ -21285,7 +21600,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 482,
+      lineNumber: 498,
       columnNumber: 13
     }
   }, getDonationPopup(), __jsx("div", {
@@ -21293,7 +21608,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 484,
+      lineNumber: 500,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -21301,14 +21616,14 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 485,
+      lineNumber: 501,
       columnNumber: 21
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 486,
+      lineNumber: 502,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -21318,7 +21633,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 487,
+      lineNumber: 503,
       columnNumber: 29
     }
   }), __jsx("p", {
@@ -21326,7 +21641,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488,
+      lineNumber: 504,
       columnNumber: 29
     }
   }, selectedDescription), __jsx("p", {
@@ -21334,7 +21649,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489,
+      lineNumber: 505,
       columnNumber: 29
     }
   }, selectedDescription), getButtons(), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
@@ -21342,7 +21657,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 491,
+      lineNumber: 507,
       columnNumber: 29
     }
   }, getDownloadButtons())), __jsx("div", {
@@ -21350,7 +21665,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 495,
+      lineNumber: 511,
       columnNumber: 25
     }
   }, __jsx("p", {
@@ -21358,7 +21673,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 496,
+      lineNumber: 512,
       columnNumber: 29
     }
   }, postData.model.name), __jsx("div", {
@@ -21366,7 +21681,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 497,
+      lineNumber: 513,
       columnNumber: 29
     }
   }, __jsx("p", {
@@ -21377,7 +21692,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 498,
+      lineNumber: 514,
       columnNumber: 33
     }
   }))), getCredits()))));
