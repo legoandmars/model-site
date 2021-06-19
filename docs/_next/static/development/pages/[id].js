@@ -21286,17 +21286,7 @@ function Post(_ref) {
           lineNumber: 116,
           columnNumber: 393
         }
-      }, "Lethrial"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/anothershad",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 468
-        }
-      }, "shad"), ", and ", __jsx("a", {
+      }, "Lethrial"), ", and ", __jsx("a", {
         link: true,
         "class": "graylink",
         href: "https://twitter.com/when_pink",
@@ -21304,7 +21294,7 @@ function Post(_ref) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 116,
-          columnNumber: 546
+          columnNumber: 472
         }
       }, "Pink")), __jsx("br", {
         __self: this,
@@ -21321,7 +21311,7 @@ function Post(_ref) {
           lineNumber: 118,
           columnNumber: 17
         }
-      }, "Friday Night Funkin was created by ninjamuffin99. Play the game ", __jsx("a", {
+      }, "Play the original Friday Night Funkin' ", __jsx("a", {
         link: true,
         "class": "graylink",
         href: "https://ninja-muffin24.itch.io/funkin",
@@ -21329,14 +21319,14 @@ function Post(_ref) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 118,
-          columnNumber: 114
+          columnNumber: 89
         }
       }, "here"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 118,
-          columnNumber: 192
+          columnNumber: 167
         }
       })), __jsx("p", {
         "class": "text-light credittext",
@@ -21398,54 +21388,123 @@ function Post(_ref) {
           lineNumber: 120,
           columnNumber: 166
         }
-      })), __jsx("p", {
-        "class": "text-light credittext",
+      })), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 121,
           columnNumber: 17
         }
-      }, "Sabers by ", __jsx("a", {
+      }), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 17
+        }
+      }, "Custom Sabers by ", __jsx("a", {
         link: true,
         "class": "graylink",
         href: "https://twitter.com/Okachamie",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
-          columnNumber: 60
+          lineNumber: 122,
+          columnNumber: 67
         }
-      }, "Okachamie"), " and additional animation contributions by ", __jsx("a", {
+      }, "Okachamie"), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 142
+        }
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 17
+        }
+      }, "FNF-Styled Beat Saber note icons by ", __jsx("a", {
+        link: true,
+        "class": "graylink",
+        href: "https://twitter.com/YaBoiBanic",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 86
+        }
+      }, "Banic"), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 158
+        }
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124,
+          columnNumber: 17
+        }
+      }, "Additional animation contributions by ", __jsx("a", {
         link: true,
         "class": "graylink",
         href: "https://twitter.com/ThisIsBennyK",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
-          columnNumber: 178
+          lineNumber: 124,
+          columnNumber: 88
         }
       }, "Ben Kurtin"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
-          columnNumber: 257
+          lineNumber: 124,
+          columnNumber: 167
         }
-      }))));
+      })), __jsx("p", {
+        "class": "text-light credittext",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 17
+        }
+      }, "A special thanks to everybody who tested, and to you for playing :)", __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 117
+        }
+      })), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 17
+        }
+      })));
     }
   }
 
   function getDonationPopup() {
-    if (postData.type == "pack") {
+    if (postData.type == "pack" && postData.model.name != "Friday Night Funkin Pack") {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
         "class": "donationpopup",
         id: "donationpopup",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132,
+          lineNumber: 136,
           columnNumber: 21
         }
       }, __jsx("p", {
@@ -21453,27 +21512,27 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 137,
           columnNumber: 25
         }
-      }, "Have a few extra bucks and want to support me in making awesome free model packs? Donate to my ko-fi!"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
+      }, "Have a few extra bucks and want to support me in making awesome free model packs? Donate to my patreon!"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
         className: "d-flex donationbuttons",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 138,
           columnNumber: 25
         }
       }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
         type: "button",
         variant: "dark",
         className: "button1",
-        href: "https://ko-fi.com/bobbievr",
+        href: "https://www.patreon.com/bobbievr",
         download: true,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 139,
           columnNumber: 29
         }
       }, "Donate"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -21486,7 +21545,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 140,
           columnNumber: 29
         }
       }, "Close"))));
@@ -21509,7 +21568,7 @@ function Post(_ref) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158,
+          lineNumber: 162,
           columnNumber: 17
         }
       }));
@@ -21517,7 +21576,7 @@ function Post(_ref) {
   }
 
   function replaceLinks(text) {
-    var html = text.replace(/\[([^\]]+)\]\(([^\)]+)\)/, '<a href="$2">$1</a>');
+    var html = text.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" class="graylink">$1</a>');
     return html;
   }
 
@@ -21525,7 +21584,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 174,
       columnNumber: 9
     }
   }), __jsx("style", {
@@ -21533,21 +21592,21 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 175,
       columnNumber: 9
     }
-  }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    /*max-width: 40rem;*/\n                }\n                .container{\n                    position: absolute;\n                    max-width:100%;\n                    max-height:100%;\n                    width:60%;\n                    left:20%;\n                    height:50%; \n                }\n                footer {\n                    padding-top: 3rem;\n                    padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .main {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #000000;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-radius: 10px;       \n                    border: 0.15rem solid #4d4d4d;            \n                }\n                .mainimage{\n                    height:55%;\n                    width:55%;\n                    margin-left:0px;\n                    background-color: #303030;\n                    float:left;\n                    border-radius: 0.5vw;\n                }\n                .imagetext{\n                    width:45%;\n                    height:100%;\n                    float:right;\n                }\n                .p{\n                    text-align: center;\n                }\n                .titletext{\n                    font-size:2.25rem;\n                    font-size:1.9vw;\n                    text-align: center;\n                    font-weight:bold;\n                    background-color: #000000;\n                    width: 85%;\n                    margin: auto;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                }\n                .descriptiontext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }\n                .description-holder{\n                    margin: auto;\n                    margin-top: 0.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:relative;\n                    width: 85%;\n                    height:100%;\n                    background-color: #000000;\n                    z-index:1;\n                }\n                .imagesubcontainer{\n                    margin-top:2.5vw;\n                    display:inline-block;\n                    width:100%;\n                    position:relative;\n                }\n                .downloadbuttons{\n                    position:absolute;\n                    width: 37.5%;\n                    bottom:0;                          \n                    right:0;   \n                    left: 58.75%;\n                    height:3vw;\n                    z-index:2;\n                    top: calc(100% - 3vw);\n                }\n                .arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: calc(55% - 3.0vw);\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .left-arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: 0;\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .arrow{\n                    position:absolute;\n                    left:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .arrowleft{\n                    position:absolute;\n                    right:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .imageheader{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                }\n                .imageheaderstroke{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                    -webkit-text-stroke-width: .4vw;\n                    -webkit-text-stroke-color: black;                  \n                }\n                .credit-holder{\n                    margin: auto;\n                    margin-top: 57.5%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute;\n                    width: 96.75%;\n                    background-color: #000000;\n                    z-index:0;\n                    margin-bottom: 2%;\n                }\n                .creditheader{\n                    font-size:2.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext-bottom{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                    margin-bottom:0.7%;\n                }\n                .graylink{\n                    color: gray;\n                    text-decoration: underline;\n                }\n                .graylink:hover {\n                    color: #474747;\n                }                  \n\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n                .btn{\n                    font-size:1.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute!important;\n                    max-height:100%;\n                    height:100%;\n                    max-width:100%;\n                    width:100%;\n                    top:0;\n                    padding:0;\n                    padding-top: 0.4vw;\n                    /*height:3vw!important;*/\n                }\n                .second{\n                    width:50%;\n                    left:50%;\n                }\n                .first{\n                    width:50%;\n                }\n                @media (max-aspect-ratio: 1/1) {\n                    .container {\n                        width: 95%;\n                        left: 2.5%;\n                    }\n                    .descriptiontext{\n                        font-size:2vw;\n                    }    \n                }     \n                .donationpopup{\n                    position: fixed;\n                    width:15%;\n                    left:85%;\n                    height:20%;\n                    top:80%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    background-color: #000000;\n                }\n                .donationtext{\n                    font-size:1.5rem;\n                    font-size:1.0vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }        \n                .donationbuttons{\n                    left:5%;\n                    width:45%;\n                    height:25%;\n                }\n                .button1{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0.2vw;\n                    margin:0;\n                }\n                .button2{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0vw;\n                    margin:0;\n                    left:100%;\n                }\n        "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
+  }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    /*max-width: 40rem;*/\n                }\n                .container{\n                    position: absolute;\n                    max-width:100%;\n                    max-height:100%;\n                    width:60%;\n                    left:20%;\n                    height:50%; \n                }\n                footer {\n                    padding-top: 3rem;\n                    padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .main {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #000000;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-radius: 10px;       \n                    border: 0.15rem solid #4d4d4d;            \n                }\n                .mainimage{\n                    height:55%;\n                    width:55%;\n                    margin-left:0px;\n                    background-color: #303030;\n                    float:left;\n                    border-radius: 0.5vw;\n                }\n                .imagetext{\n                    width:45%;\n                    height:100%;\n                    float:right;\n                }\n                .p{\n                    text-align: center;\n                }\n                .titletext{\n                    font-size:2.25rem;\n                    font-size:1.9vw;\n                    text-align: center;\n                    font-weight:bold;\n                    background-color: #000000;\n                    width: 85%;\n                    margin: auto;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                }\n                .descriptiontext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }\n                .description-holder{\n                    margin: auto;\n                    margin-top: 0.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:relative;\n                    width: 85%;\n                    height:100%;\n                    background-color: #000000;\n                    z-index:1;\n                }\n                .imagesubcontainer{\n                    margin-top:2.5vw;\n                    display:inline-block;\n                    width:100%;\n                    position:relative;\n                }\n                .downloadbuttons{\n                    position:absolute;\n                    width: 37.5%;\n                    bottom:0;                          \n                    right:0;   \n                    left: 58.75%;\n                    height:3vw;\n                    z-index:2;\n                    top: calc(100% - 3vw);\n                }\n                .arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: calc(55% - 3.0vw);\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .left-arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: 0;\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .arrow{\n                    position:absolute;\n                    left:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .arrowleft{\n                    position:absolute;\n                    right:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .imageheader{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                }\n                .imageheaderstroke{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                    -webkit-text-stroke-width: .4vw;\n                    -webkit-text-stroke-color: black;                  \n                }\n                .credit-holder{\n                    margin: auto;\n                    margin-top: 57.5%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute;\n                    width: 96.75%;\n                    background-color: #000000;\n                    z-index:0;\n                    margin-bottom: 2%;\n                }\n                .creditheader{\n                    font-size:2.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext-bottom{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                    margin-bottom:0.7%;\n                }\n                .graylink{\n                    color: gray;\n                    text-decoration: underline;\n                }\n                .graylink:hover {\n                    color: #474747;\n                }                  \n\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n                .btn{\n                    font-size:1.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute!important;\n                    max-height:100%;\n                    height:100%;\n                    max-width:100%;\n                    width:100%;\n                    top:0;\n                    padding:0;\n                    padding-top: 0.4vw;\n                    /*height:3vw!important;*/\n                }\n                .second{\n                    width:50%;\n                    left:50%;\n                }\n                .first{\n                    width:50%;\n                }\n                @media (max-aspect-ratio: 1/1) {\n                    .container {\n                        width: 95%;\n                        left: 2.5%;\n                    }\n                    .descriptiontext{\n                        font-size:2vw;\n                    }    \n                    .credittext{\n                        font-size:2vw;\n                        text-align: center;\n                        margin: auto;\n                    }\n                    .credittext-bottom{\n                        font-size:2vw;\n                        text-align: center;\n                        margin: auto;\n                        margin-bottom:0.7%;\n                    }    \n                }     \n                .donationpopup{\n                    position: fixed;\n                    width:15%;\n                    left:85%;\n                    height:20%;\n                    top:80%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    background-color: #000000;\n                }\n                .donationtext{\n                    font-size:1.5rem;\n                    font-size:1.0vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }        \n                .donationbuttons{\n                    left:5%;\n                    width:45%;\n                    height:25%;\n                }\n                .button1{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0.2vw;\n                    margin:0;\n                }\n                .button2{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0vw;\n                    margin:0;\n                    left:100%;\n                }\n        "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488,
+      lineNumber: 503,
       columnNumber: 13
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489,
+      lineNumber: 504,
       columnNumber: 17
     }
   }, postData.model.name), __jsx("meta", {
@@ -21556,7 +21615,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 490,
+      lineNumber: 505,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21565,7 +21624,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 491,
+      lineNumber: 506,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21574,7 +21633,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492,
+      lineNumber: 507,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21583,7 +21642,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 493,
+      lineNumber: 508,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -21592,7 +21651,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 494,
+      lineNumber: 509,
       columnNumber: 17
     }
   }), getRedirect(), preloadImages(postData.extra_images)), __jsx("div", {
@@ -21600,7 +21659,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 498,
+      lineNumber: 513,
       columnNumber: 13
     }
   }, getDonationPopup(), __jsx("div", {
@@ -21608,7 +21667,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 500,
+      lineNumber: 515,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -21616,14 +21675,14 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 501,
+      lineNumber: 516,
       columnNumber: 21
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 502,
+      lineNumber: 517,
       columnNumber: 25
     }
   }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -21633,7 +21692,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 503,
+      lineNumber: 518,
       columnNumber: 29
     }
   }), __jsx("p", {
@@ -21641,7 +21700,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 504,
+      lineNumber: 519,
       columnNumber: 29
     }
   }, selectedDescription), __jsx("p", {
@@ -21649,7 +21708,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 505,
+      lineNumber: 520,
       columnNumber: 29
     }
   }, selectedDescription), getButtons(), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
@@ -21657,7 +21716,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 507,
+      lineNumber: 522,
       columnNumber: 29
     }
   }, getDownloadButtons())), __jsx("div", {
@@ -21665,7 +21724,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 511,
+      lineNumber: 526,
       columnNumber: 25
     }
   }, __jsx("p", {
@@ -21673,7 +21732,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 512,
+      lineNumber: 527,
       columnNumber: 29
     }
   }, postData.model.name), __jsx("div", {
@@ -21681,7 +21740,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 513,
+      lineNumber: 528,
       columnNumber: 29
     }
   }, __jsx("p", {
@@ -21692,7 +21751,7 @@ function Post(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 514,
+      lineNumber: 529,
       columnNumber: 33
     }
   }))), getCredits()))));
@@ -21700,7 +21759,7 @@ function Post(_ref) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
   \****************************************************************************************************************************************************************/
@@ -21723,5 +21782,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
