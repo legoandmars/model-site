@@ -21759,7 +21759,7 @@ function Post(_ref) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
   \****************************************************************************************************************************************************************/
@@ -21782,5 +21782,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
