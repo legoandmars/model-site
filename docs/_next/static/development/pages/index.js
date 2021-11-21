@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header.module.css */ "./layouts/header.module.css");
 /* harmony import */ var _header_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_header_module_css__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\layouts\\header.js";
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\Projects\\bobbie_model_pages\\nextjs-blog\\layouts\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
  //import Collapse from 'react-bootstrap/Collapse';
@@ -229,7 +229,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _layouts_header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../layouts/header */ "./layouts/header.js");
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\layouts\\model-list.js";
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\Projects\\bobbie_model_pages\\nextjs-blog\\layouts\\model-list.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -382,11 +382,21 @@ function modelPage(allModels, modelType) {
       lineNumber: 132,
       columnNumber: 13
     }
-  }, __jsx("title", {
+  }, __jsx("script", {
+    async: true,
+    src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369",
+    crossorigin: "anonymous",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 133,
+      columnNumber: 13
+    }
+  }), __jsx("title", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
       columnNumber: 17
     }
   }, modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s"), __jsx("meta", {
@@ -395,7 +405,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 136,
       columnNumber: 17
     }
   }), __jsx("meta", {
@@ -404,7 +414,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 137,
       columnNumber: 17
     }
   }), getDescription()), __jsx("div", {
@@ -412,7 +422,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 140,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -420,7 +430,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 141,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -428,7 +438,7 @@ function modelPage(allModels, modelType) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 142,
       columnNumber: 21
     }
   }, modelElementList))));
@@ -4451,7 +4461,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".header_navbarName__2Kcwq{\r\n    font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/bobbie_model_pages/nextjs-blog/layouts/header.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"header.module.css","sourcesContent":[".navbarName{\r\n    font-size: 50px;\r\n}\r\n"]}]);
+exports.push([module.i, ".header_navbarName__2Kcwq{\r\n    font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/Projects/bobbie_model_pages/nextjs-blog/layouts/header.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"header.module.css","sourcesContent":[".navbarName{\r\n    font-size: 50px;\r\n}\r\n"]}]);
 // Exports
 exports.locals = {
 	"navbarName": "header_navbarName__2Kcwq"
@@ -5355,10 +5365,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js!./":
-/*!*************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js ***!
-  \*************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js!./":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js ***!
+  \************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20837,14 +20847,14 @@ function walls(_ref) {
 
 /***/ }),
 
-/***/ 3:
-/*!*****************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js ***!
-  \*****************************************************************************************************************************************************/
+/***/ 1:
+/*!****************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -20860,5 +20870,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

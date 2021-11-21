@@ -1,98 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\[id].js"],{
-
-/***/ "./components/layout.js":
-/*!******************************!*\
-  !*** ./components/layout.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Layout; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout.module.css */ "./components/layout.module.css");
-/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\components\\layout.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function Layout(_ref) {
-  var children = _ref.children;
-  return __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.container,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 12
-    }
-  }, children);
-}
-
-/***/ }),
-
-/***/ "./components/layout.module.css":
-/*!**************************************!*\
-  !*** ./components/layout.module.css ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/layout.module.css");
-
-if (typeof content === 'string') {
-  content = [[module.i, content, '']];
-}
-
-var options = {}
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-if (content.locals) {
-  module.exports = content.locals;
-}
-
-if (true) {
-  if (!content.locals) {
-    module.hot.accept(
-      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/layout.module.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/layout.module.css");
-
-        if (typeof newContent === 'string') {
-          newContent = [[module.i, newContent, '']];
-        }
-        
-        update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() { 
-    update();
-  });
-}
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\packs.js"],{
 
 /***/ "./layouts/header.js":
 /*!***************************!*\
@@ -115,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./header.module.css */ "./layouts/header.module.css");
 /* harmony import */ var _header_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_header_module_css__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\layouts\\header.js";
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\Projects\\bobbie_model_pages\\nextjs-blog\\layouts\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
  //import Collapse from 'react-bootstrap/Collapse';
@@ -301,6 +207,248 @@ if (true) {
     update();
   });
 }
+
+/***/ }),
+
+/***/ "./layouts/model-list.js":
+/*!*******************************!*\
+  !*** ./layouts/model-list.js ***!
+  \*******************************/
+/*! exports provided: default, modelPage */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getCard; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "modelPage", function() { return modelPage; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _layouts_header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../layouts/header */ "./layouts/header.js");
+var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\Projects\\bobbie_model_pages\\nextjs-blog\\layouts\\model-list.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+function getCard(imageName, downloadName, endpoint) {
+  return __jsx("div", {
+    "class": "col-md-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    "class": "card mb-4 box-shadow",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    "class": "card-img-top",
+    src: "./".concat(imageName),
+    alt: "Card image cap",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["ButtonGroup"], {
+    className: "d-flex",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 17
+    }
+  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    className: "w-100",
+    type: "button",
+    variant: "dark",
+    href: "./".concat(downloadName),
+    download: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 21
+    }
+  }, "Download"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    className: "w-100",
+    type: "button",
+    variant: "dark",
+    href: "./".concat(endpoint),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 21
+    }
+  }, "Details"))));
+}
+function modelPage(allModels, modelType) {
+  var modelElementList = []; // send it off to be rendered by model-list;
+
+  for (var i = 0; i < allModels.length; i++) {
+    var model = allModels[i];
+
+    if ((model.type == modelType || modelType == "all Model") && !model.hidden) {
+      modelElementList.push(getCard(model["image_name"], model["file_name"], model.endpoint));
+    }
+  }
+
+  function getDescription() {
+    if (modelType.toLowerCase() !== "all model") {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("meta", {
+        content: modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s",
+        property: "og:title",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 17
+        }
+      }), __jsx("meta", {
+        content: "Download Bobbie's Custom ".concat(modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s", " for Beat Saber."),
+        property: "og:description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 17
+        }
+      }));
+    } else {
+      return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("meta", {
+        content: "Bobbie's Model Site",
+        property: "og:title",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }
+      }), __jsx("meta", {
+        content: "Download Bobbie's model packs, notes, walls, and more!",
+        property: "og:description",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }
+      }), __jsx("meta", {
+        content: "https://bobbie.dev/bobbie.png",
+        property: "og:image",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }
+      }));
+    }
+  }
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_layouts_header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }), __jsx("style", {
+    type: "text/css",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 13
+    }
+  }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    max-width: 40rem;\n                }\n                .container{\n                }\n                footer {\n                padding-top: 3rem;\n                padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .album {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #303030;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                }\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n            "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132,
+      columnNumber: 13
+    }
+  }, __jsx("script", {
+    async: true,
+    src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369",
+    crossorigin: "anonymous",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133,
+      columnNumber: 13
+    }
+  }), __jsx("title", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 17
+    }
+  }, modelType.charAt(0).toUpperCase() + modelType.slice(1) + "s"), __jsx("meta", {
+    content: "bobbie.dev",
+    property: "og:site_name",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136,
+      columnNumber: 17
+    }
+  }), __jsx("meta", {
+    content: "#96e3ff",
+    name: "theme-color",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137,
+      columnNumber: 17
+    }
+  }), getDescription()), __jsx("div", {
+    "class": "album py-5",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    "class": "container",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    "class": "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142,
+      columnNumber: 21
+    }
+  }, modelElementList))));
+}
+/*[{
+    "image_name": "testimage.png",
+    "file_name": "Diamond Ore.pixie",
+    "type": "wall",
+    "endpoint": "DiamondOre"
+}]*/
 
 /***/ }),
 
@@ -4304,23 +4452,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/layout.module.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./components/layout.module.css ***!
-  \*****************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".layout_container__2t4v2 {\r\n  max-width: 36rem;\r\n  padding: 0 1rem;\r\n  margin: 3rem auto 6rem;\r\n}", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/bobbie_model_pages/nextjs-blog/components/layout.module.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,eAAe;EACf,sBAAsB;AACxB","file":"layout.module.css","sourcesContent":[".container {\r\n  max-width: 36rem;\r\n  padding: 0 1rem;\r\n  margin: 3rem auto 6rem;\r\n}"]}]);
-// Exports
-exports.locals = {
-	"container": "layout_container__2t4v2"
-};
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./layouts/header.module.css":
 /*!**************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layouts/header.module.css ***!
@@ -4330,7 +4461,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".header_navbarName__2Kcwq{\r\n    font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/bobbie_model_pages/nextjs-blog/layouts/header.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"header.module.css","sourcesContent":[".navbarName{\r\n    font-size: 50px;\r\n}\r\n"]}]);
+exports.push([module.i, ".header_navbarName__2Kcwq{\r\n    font-size: 50px;\r\n}\r\n", "",{"version":3,"sources":["C:/Users/Isaac/Desktop/Projects/bobbie_model_pages/nextjs-blog/layouts/header.module.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"header.module.css","sourcesContent":[".navbarName{\r\n    font-size: 50px;\r\n}\r\n"]}]);
 // Exports
 exports.locals = {
 	"navbarName": "header_navbarName__2Kcwq"
@@ -5234,21 +5365,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js!./":
-/*!************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
-  \************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cpacks.js!./":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cpacks.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/[id]", function() {
-      var mod = __webpack_require__(/*! ./pages/[id].js */ "./pages/[id].js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/packs", function() {
+      var mod = __webpack_require__(/*! ./pages/packs.js */ "./pages/packs.js")
       if(true) {
-        module.hot.accept(/*! ./pages/[id].js */ "./pages/[id].js", function() {
-          if(!next.router.components["/[id]"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/[id].js */ "./pages/[id].js")
-          next.router.update("/[id]", updatedPage)
+        module.hot.accept(/*! ./pages/packs.js */ "./pages/packs.js", function() {
+          if(!next.router.components["/packs"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/packs.js */ "./pages/packs.js")
+          next.router.update("/packs", updatedPage)
         })
       }
       return mod
@@ -20694,1079 +20825,36 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "./pages/[id].js":
-/*!***********************!*\
-  !*** ./pages/[id].js ***!
-  \***********************/
+/***/ "./pages/packs.js":
+/*!************************!*\
+  !*** ./pages/packs.js ***!
+  \************************/
 /*! exports provided: __N_SSG, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__N_SSG", function() { return __N_SSG; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Post; });
-/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
-/* harmony import */ var _layouts_header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../layouts/header */ "./layouts/header.js");
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/esm/index.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
-
-var _jsxFileName = "C:\\Users\\Isaac\\Desktop\\bobbie_model_pages\\nextjs-blog\\pages\\[id].js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return walls; });
+/* harmony import */ var _layouts_model_list__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../layouts/model-list */ "./layouts/model-list.js");
 
 var __N_SSG = true;
-function Post(_ref) {
+function walls(_ref) {
   var postData = _ref.postData;
-  var renderButtons = false;
-  var imageIndex = 0;
-  var initialImage;
-  var initialDescription;
-
-  if (postData.extra_images) {
-    initialImage = postData.extra_images[0];
-    initialDescription = postData.image_metadata[0];
-  } else {
-    initialImage = postData.image_name;
-    initialDescription = "";
-  }
-
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(initialImage),
-      _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
-      selected = _React$useState2[0],
-      setSelected = _React$useState2[1];
-
-  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(initialDescription),
-      _React$useState4 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState3, 2),
-      selectedDescription = _React$useState4[0],
-      setSelectedDescription = _React$useState4[1];
-
-  function previousImage() {
-    if (postData.extra_images.indexOf(selected) == 0) {
-      setSelected(postData.extra_images[postData.extra_images.length - 1]);
-      setSelectedDescription(postData.image_metadata[postData.extra_images.length - 1]);
-    } else {
-      setSelected(postData.extra_images[postData.extra_images.indexOf(selected) - 1]);
-      setSelectedDescription(postData.image_metadata[postData.extra_images.indexOf(selected) - 1]);
-    }
-  }
-
-  function nextImage() {
-    if (postData.extra_images.indexOf(selected) + 1 == postData.extra_images.length) {
-      setSelected(postData.extra_images[0]);
-      setSelectedDescription(postData.image_metadata[0]);
-    } else {
-      setSelected(postData.extra_images[postData.extra_images.indexOf(selected) + 1]);
-      setSelectedDescription(postData.image_metadata[postData.extra_images.indexOf(selected) + 1]);
-    }
-  }
-
-  function getButtons() {
-    if (postData.extra_images) {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        variant: "dark",
-        "class": "left-arrow-button",
-        size: "lg",
-        onClick: function onClick() {
-          return previousImage();
-        },
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46,
-          columnNumber: 17
-        }
-      }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
-        "class": "arrowleft",
-        src: "arrow-left.png",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47,
-          columnNumber: 21
-        }
-      })), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        variant: "dark",
-        "class": "arrow-button",
-        size: "lg",
-        onClick: function onClick() {
-          return nextImage();
-        },
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49,
-          columnNumber: 17
-        }
-      }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
-        "class": "arrow",
-        src: "arrow.png",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50,
-          columnNumber: 21
-        }
-      })));
-    }
-  }
-
-  function getDownloadButtons() {
-    if (postData.second_button) {
-      if (postData.second_button.download) {
-        return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-          type: "button",
-          className: "first",
-          variant: "dark",
-          href: "./".concat(postData.file_name),
-          download: true,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 61,
-            columnNumber: 25
-          }
-        }, "Download"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-          type: "button",
-          className: "second",
-          variant: "dark",
-          href: "./".concat(postData.second_button.link),
-          download: true,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 62,
-            columnNumber: 25
-          }
-        }, postData.second_button.text));
-      } else {
-        return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-          type: "button",
-          className: "first",
-          variant: "dark",
-          href: "./".concat(postData.file_name),
-          download: true,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 68,
-            columnNumber: 25
-          }
-        }, "Download"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-          type: "button",
-          className: "second",
-          variant: "dark",
-          href: postData.second_button.link,
-          __self: this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 69,
-            columnNumber: 25
-          }
-        }, postData.second_button.text));
-      }
-    } else {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        type: "button",
-        variant: "dark",
-        href: "./".concat(postData.file_name),
-        download: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76,
-          columnNumber: 17
-        }
-      }, "Download"));
-    }
-  }
-
-  function preloadImages(imageSources) {
-    var _this = this;
-
-    if (imageSources) {
-      var allImages = [];
-      imageSources.forEach(function (i) {
-        allImages.push(__jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("a", {
-          rel: "preload",
-          href: i,
-          as: "image",
-          __self: _this,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89,
-            columnNumber: 17
-          }
-        })));
-      });
-      return allImages;
-    }
-  }
-
-  function getCredits() {
-    if (postData.fallguyscredits) {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-        "class": "credit-holder",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99,
-          columnNumber: 17
-        }
-      }, __jsx("h2", {
-        "class": "text-light creditheader",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100,
-          columnNumber: 17
-        }
-      }, "Credits"), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 17
-        }
-      }, "Fall Guy Model: ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://sketchfab.com/3d-models/unofficial-fall-guy-598b22b710b44c22a962fecc9dd92312",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 66
-        }
-      }, "Sketchfab"), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101,
-          columnNumber: 196
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102,
-          columnNumber: 17
-        }
-      }, "Sabers: ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/Hooi21",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102,
-          columnNumber: 58
-        }
-      }, "Hooi")), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 17
-        }
-      }, "Maps: ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/lethrial",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 56
-        }
-      }, "Lethrial"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/One_narwhal",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 131
-        }
-      }, "That_Narwhal"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/bytrius",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 213
-        }
-      }, "Bytrius"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/ConnnnorJC",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 286
-        }
-      }, "ConnorJC"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/Lonewolvez1",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 363
-        }
-      }, "Lonewolvez"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/The_Caeden117",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 443
-        }
-      }, "Caeden117"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/nomuffn",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 524
-        }
-      }, "nomuffn")), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104,
-          columnNumber: 17
-        }
-      }, "Fall Guys Original Soundtrack created by Jukio Kallio and Daniel Hagstr\xF6m"), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105,
-          columnNumber: 17
-        }
-      }, "SUPPORT & FOLLOW THE ORIGINAL ARTISTS: ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://jukiokallio.bandcamp.com/album/fall-guys-original-soundtrack",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105,
-          columnNumber: 89
-        }
-      }, "Bandcamp"), " / ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://open.spotify.com/album/2XbgThX8BaW5Euimr3JAPT?si=OjPnw2qSSby1I2vGZJtOsg",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105,
-          columnNumber: 205
-        }
-      }, "Spotify")), __jsx("p", {
-        "class": "text-light credittext-bottom",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106,
-          columnNumber: 17
-        }
-      }, __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://jukiokallio.com",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106,
-          columnNumber: 57
-        }
-      }, "More about Jukio Kallio"), " / ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://danielhagstrom.com",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106,
-          columnNumber: 143
-        }
-      }, "More about Daniel Hagstr\xF6m"))));
-    } else if (postData.fnfcredits) {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-        "class": "credit-holder",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112,
-          columnNumber: 17
-        }
-      }, __jsx("h2", {
-        "class": "text-light creditheader",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113,
-          columnNumber: 17
-        }
-      }, "Credits"), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114,
-          columnNumber: 17
-        }
-      }, "Thank you to the wonderful mappers that helped chart songs for this pack: ", __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114,
-          columnNumber: 124
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 17
-        }
-      }, __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/NokahVR",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 50
-        }
-      }, "Nokah"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/LmoaNolan",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 121
-        }
-      }, "nolanLMOA"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/oddloop_",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 198
-        }
-      }, "oddloop"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/MystikmolR",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 272
-        }
-      }, "Mystikmol"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/KikaeAeon",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 350
-        }
-      }, "KikaeAeon"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/One_narwhal",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 427
-        }
-      }, "That_Narwhal"), ",", __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 17
-        }
-      }), __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/nomuffn",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 26
-        }
-      }, "muffn"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/skeaary",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 97
-        }
-      }, "skeary"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/TheRealHoppaw",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 169
-        }
-      }, "Hoppaw"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/plusonerabbit",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 247
-        }
-      }, "Rabbit"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/TM0D_",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 325
-        }
-      }, "TM0D"), ", ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/lethrial",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 393
-        }
-      }, "Lethrial"), ", and ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/when_pink",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 116,
-          columnNumber: 472
-        }
-      }, "Pink")), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117,
-          columnNumber: 17
-        }
-      }), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118,
-          columnNumber: 17
-        }
-      }, "Play the original Friday Night Funkin' ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://ninja-muffin24.itch.io/funkin",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118,
-          columnNumber: 89
-        }
-      }, "here"), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118,
-          columnNumber: 167
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 17
-        }
-      }, "Friday Night Funkin Original Soundtrack by ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://kawaisprite.bandcamp.com/",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 93
-        }
-      }, "Kawai Sprite"), " and ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://bassetmusic.bandcamp.com/",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 180
-        }
-      }, "Basset"), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119,
-          columnNumber: 256
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120,
-          columnNumber: 17
-        }
-      }, "Friday Night Funkin Character Models: ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://skfb.ly/onHYD",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120,
-          columnNumber: 88
-        }
-      }, "Cally3D"), " on Sketchfab", __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 120,
-          columnNumber: 166
-        }
-      })), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 121,
-          columnNumber: 17
-        }
-      }), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 122,
-          columnNumber: 17
-        }
-      }, "Custom Sabers by ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/Okachamie",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 122,
-          columnNumber: 67
-        }
-      }, "Okachamie"), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 122,
-          columnNumber: 142
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 123,
-          columnNumber: 17
-        }
-      }, "FNF-Styled Beat Saber note icons by ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/YaBoiBanic",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 123,
-          columnNumber: 86
-        }
-      }, "Banic"), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 123,
-          columnNumber: 158
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124,
-          columnNumber: 17
-        }
-      }, "Additional animation contributions by ", __jsx("a", {
-        link: true,
-        "class": "graylink",
-        href: "https://twitter.com/ThisIsBennyK",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124,
-          columnNumber: 88
-        }
-      }, "Ben Kurtin"), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124,
-          columnNumber: 167
-        }
-      })), __jsx("p", {
-        "class": "text-light credittext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125,
-          columnNumber: 17
-        }
-      }, "A special thanks to everybody who tested, and to you for playing :)", __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125,
-          columnNumber: 117
-        }
-      })), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126,
-          columnNumber: 17
-        }
-      })));
-    }
-  }
-
-  function getDonationPopup() {
-    if (postData.type == "pack" && postData.model.name != "Friday Night Funkin Pack") {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-        "class": "donationpopup",
-        id: "donationpopup",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136,
-          columnNumber: 21
-        }
-      }, __jsx("p", {
-        "class": "text-light donationtext",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 137,
-          columnNumber: 25
-        }
-      }, "Have a few extra bucks and want to support me in making awesome free model packs? Donate to my patreon!"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
-        className: "d-flex donationbuttons",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138,
-          columnNumber: 25
-        }
-      }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        type: "button",
-        variant: "dark",
-        className: "button1",
-        href: "https://www.patreon.com/bobbievr",
-        download: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 139,
-          columnNumber: 29
-        }
-      }, "Donate"), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Button"], {
-        type: "button",
-        variant: "dark",
-        className: "button2",
-        onClick: function onClick() {
-          document.getElementById("donationpopup").style.visibility = "hidden";
-        },
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 140,
-          columnNumber: 29
-        }
-      }, "Close"))));
-    }
-  }
-
-  function getShortnedDesc() {
-    if (postData.model.description.length > 150) {
-      return postData.model.description.substring(0, 146) + "...";
-    } else {
-      return postData.model.description;
-    }
-  }
-
-  function getRedirect() {
-    if (postData.model.name == "Solar System Pack") {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("meta", {
-        "http-equiv": "refresh",
-        content: "0; url = https://bsmodel.city/SolarSystemPack",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162,
-          columnNumber: 17
-        }
-      }));
-    }
-  }
-
-  function replaceLinks(text) {
-    var html = text.replace(/\[([^\]]+)\]\(([^\)]+)\)/g, '<a href="$2" class="graylink">$1</a>');
-    return html;
-  }
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_layouts_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174,
-      columnNumber: 9
-    }
-  }), __jsx("style", {
-    type: "text/css",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 175,
-      columnNumber: 9
-    }
-  }, "\n                :root {\n                --jumbotron-padding-y: 3rem;\n                }\n                .jumbotron {\n                padding-top: var(--jumbotron-padding-y);\n                padding-bottom: var(--jumbotron-padding-y);\n                margin-bottom: 0;\n                background-color: #fff;\n                }\n                @media (min-width: 768px) {\n                .jumbotron {\n                    padding-top: calc(var(--jumbotron-padding-y) * 2);\n                    padding-bottom: calc(var(--jumbotron-padding-y) * 2);\n                }\n                }\n    \n                .jumbotron p:last-child {\n                margin-bottom: 0;\n                }\n    \n                .jumbotron-heading {\n                font-weight: 300;\n                }\n    \n                .jumbotron .container {\n                    /*max-width: 40rem;*/\n                }\n                .container{\n                    position: absolute;\n                    max-width:100%;\n                    max-height:100%;\n                    width:60%;\n                    left:20%;\n                    height:50%; \n                }\n                footer {\n                    padding-top: 3rem;\n                    padding-bottom: 3rem;\n                }\n    \n                footer p {\n                margin-bottom: .25rem;\n                }\n    \n                .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n    \n                .main {\n                    background-color: #202020;\n                }\n                body{\n                    background-color: #202020;\n                }\n                .card-title{\n                    font-size:2rem;\n                    text-align: center;\n                    margin-bottom: .2rem;\n                }\n                .btn{\n                    font-size: 1.5rem;\n                }\n                .card{\n                    background-color: #000000;\n                }\n                .btn{\n                    background-color: #000000;\n                    border-color: #4d4d4d;\n                    border-radius: 10px;       \n                    border: 0.15rem solid #4d4d4d;            \n                }\n                .mainimage{\n                    height:55%;\n                    width:55%;\n                    margin-left:0px;\n                    background-color: #303030;\n                    float:left;\n                    border-radius: 0.5vw;\n                }\n                .imagetext{\n                    width:45%;\n                    height:100%;\n                    float:right;\n                }\n                .p{\n                    text-align: center;\n                }\n                .titletext{\n                    font-size:2.25rem;\n                    font-size:1.9vw;\n                    text-align: center;\n                    font-weight:bold;\n                    background-color: #000000;\n                    width: 85%;\n                    margin: auto;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                }\n                .descriptiontext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }\n                .description-holder{\n                    margin: auto;\n                    margin-top: 0.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:relative;\n                    width: 85%;\n                    height:100%;\n                    background-color: #000000;\n                    z-index:1;\n                }\n                .imagesubcontainer{\n                    margin-top:2.5vw;\n                    display:inline-block;\n                    width:100%;\n                    position:relative;\n                }\n                .downloadbuttons{\n                    position:absolute;\n                    width: 37.5%;\n                    bottom:0;                          \n                    right:0;   \n                    left: 58.75%;\n                    height:3vw;\n                    z-index:2;\n                    top: calc(100% - 3vw);\n                }\n                .arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: calc(55% - 3.0vw);\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .left-arrow-button{\n                    position:absolute;\n                    background-color: #000000;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    width:3vw;\n                    height:3vw;\n                    top: calc(90% + 0.2vw);\n                    left: 0;\n                    outline: none !important;\n                    padding:0;\n                    margin:0;\n                }\n                .arrow{\n                    position:absolute;\n                    left:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .arrowleft{\n                    position:absolute;\n                    right:0.375vw;\n                    top:0.375vw;\n                    width:2.25vw;\n                    height:2.25vw;\n                }\n                .imageheader{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                }\n                .imageheaderstroke{\n                    position: absolute;\n                    font-size:3rem;\n                    font-size: 2vw;\n                    text-align: center;\n                    font-weight:bold;\n                    width: 55%;\n                    margin: auto;\n                    -webkit-text-stroke-width: .4vw;\n                    -webkit-text-stroke-color: black;                  \n                }\n                .credit-holder{\n                    margin: auto;\n                    margin-top: 57.5%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute;\n                    width: 96.75%;\n                    background-color: #000000;\n                    z-index:0;\n                    margin-bottom: 2%;\n                }\n                .creditheader{\n                    font-size:2.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                }\n                .credittext-bottom{\n                    font-size:1.5rem;\n                    font-size:1.25vw;\n                    text-align: center;\n                    margin: auto;\n                    margin-bottom:0.7%;\n                }\n                .graylink{\n                    color: gray;\n                    text-decoration: underline;\n                }\n                .graylink:hover {\n                    color: #474747;\n                }                  \n\n                ::-webkit-scrollbar {\n                    width: 8px;\n                    background-color: transparent;\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar:hover {\n                    background-color: rgba(0, 0, 0, 0.09);\n                }\n                ::-webkit-scrollbar-thumb:vertical {\n                    background: rgba(0,0,0,0.5);\n                    -webkit-border-radius: 100px;\n                }\n                ::-webkit-scrollbar-thumb:vertical:active {\n                    background: rgba(0,0,0,0.61);\n                    -webkit-border-radius: 100px;\n                }\n                .btn{\n                    font-size:1.25vw;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    position:absolute!important;\n                    max-height:100%;\n                    height:100%;\n                    max-width:100%;\n                    width:100%;\n                    top:0;\n                    padding:0;\n                    padding-top: 0.4vw;\n                    /*height:3vw!important;*/\n                }\n                .second{\n                    width:50%;\n                    left:50%;\n                }\n                .first{\n                    width:50%;\n                }\n                @media (max-aspect-ratio: 1/1) {\n                    .container {\n                        width: 95%;\n                        left: 2.5%;\n                    }\n                    .descriptiontext{\n                        font-size:2vw;\n                    }    \n                    .credittext{\n                        font-size:2vw;\n                        text-align: center;\n                        margin: auto;\n                    }\n                    .credittext-bottom{\n                        font-size:2vw;\n                        text-align: center;\n                        margin: auto;\n                        margin-bottom:0.7%;\n                    }    \n                }     \n                .donationpopup{\n                    position: fixed;\n                    width:15%;\n                    left:85%;\n                    height:20%;\n                    top:80%;\n                    border-radius: 0.5vw;\n                    border: 0.10vw solid #4d4d4d;\n                    background-color: #000000;\n                }\n                .donationtext{\n                    font-size:1.5rem;\n                    font-size:1.0vw;\n                    text-align: center;\n                    margin-top: 0.5vw;\n                    margin-bottom: 0.5vw;\n                    margin-left: 0.75vw;\n                    margin-right: 0.75vw;\n                }        \n                .donationbuttons{\n                    left:5%;\n                    width:45%;\n                    height:25%;\n                }\n                .button1{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0.2vw;\n                    margin:0;\n                }\n                .button2{\n                    font-size:1.2vw;\n                    padding:0;\n                    padding-top: 0vw;\n                    margin:0;\n                    left:100%;\n                }\n        "), __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 503,
-      columnNumber: 13
-    }
-  }, __jsx("title", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 504,
-      columnNumber: 17
-    }
-  }, postData.model.name), __jsx("meta", {
-    content: "bobbie.dev",
-    property: "og:site_name",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 505,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    content: postData.model.name,
-    property: "og:title",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 506,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    content: getShortnedDesc(),
-    property: "og:description",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 507,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    content: "#96e3ff",
-    name: "theme-color",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 508,
-      columnNumber: 17
-    }
-  }), __jsx("meta", {
-    content: "https://bobbie.dev/" + postData.image_name,
-    property: "og:image",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 509,
-      columnNumber: 17
-    }
-  }), getRedirect(), preloadImages(postData.extra_images)), __jsx("div", {
-    "class": "main",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 513,
-      columnNumber: 13
-    }
-  }, getDonationPopup(), __jsx("div", {
-    "class": "container",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 515,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    "class": "imagesubcontainer",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 516,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 517,
-      columnNumber: 25
-    }
-  }, __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Image"], {
-    "class": "mainimage float-left",
-    src: selected,
-    fluid: true,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 518,
-      columnNumber: 29
-    }
-  }), __jsx("p", {
-    "class": "text-light imageheaderstroke",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 519,
-      columnNumber: 29
-    }
-  }, selectedDescription), __jsx("p", {
-    "class": "text-light imageheader",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 520,
-      columnNumber: 29
-    }
-  }, selectedDescription), getButtons(), __jsx(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["ButtonGroup"], {
-    className: "d-flex downloadbuttons",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 522,
-      columnNumber: 29
-    }
-  }, getDownloadButtons())), __jsx("div", {
-    "class": "imagetext",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 526,
-      columnNumber: 25
-    }
-  }, __jsx("p", {
-    "class": "text-light titletext",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 527,
-      columnNumber: 29
-    }
-  }, postData.model.name), __jsx("div", {
-    "class": "description-holder",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 528,
-      columnNumber: 29
-    }
-  }, __jsx("p", {
-    "class": "text-light descriptiontext",
-    dangerouslySetInnerHTML: {
-      __html: replaceLinks(postData.model.description)
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 529,
-      columnNumber: 33
-    }
-  }))), getCredits()))));
+  // first, get all valid models.
+  return Object(_layouts_model_list__WEBPACK_IMPORTED_MODULE_0__["modelPage"])(postData, "pack");
 }
 
 /***/ }),
 
-/***/ 2:
-/*!****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js ***!
-  \****************************************************************************************************************************************************************/
+/***/ 3:
+/*!*********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cpacks.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5C%5Bid%5D.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cpacks.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fpacks&absolutePagePath=C%3A%5CUsers%5CIsaac%5CDesktop%5CProjects%5Cbobbie_model_pages%5Cnextjs-blog%5Cpages%5Cpacks.js!./");
 
 
 /***/ }),
@@ -21782,5 +20870,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=[id].js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=packs.js.map
