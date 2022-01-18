@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build && shx cp -r ./build/ ./docs/ && shx cp .nojekyll ./docs/ && shx cp CNAME ./docs/",
+    "build": "svelte-kit build && shx cp -r ./build/* ./docs/ && shx cp .nojekyll ./docs/ && shx cp CNAME ./docs/",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
