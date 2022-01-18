@@ -32,7 +32,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-static": "file:../kit/packages/adapter-static",
-    "@sveltejs/kit": "file:../kit/packages/kit"
+    "@sveltejs/adapter-static": "file:../../kit/packages/adapter-static",
+    "@sveltejs/kit": "file:../../kit/packages/kit"
   }
 }

@@ -23,6 +23,7 @@
 
 <script>
     import Navbar from '../../components/Navbar.svelte';
+    import Footer from '../../components/PrivacyFooter.svelte';
     import FNFCredits from '../../components/FNFCredits.svelte';
     import FallGuysCredits from '../../components/FallGuysCredits.svelte';
 
@@ -91,15 +92,18 @@
         <a download href="/{postData.file_name}" class="w-[100%] text-white bg-clear hover:bg-stone-800 font-medium text-lg sm:text-xl xl:text-4xl 2xl:text-5xl px-5 py-2 text-center rounded-br-lg l border-stone-800 text-white">Download</a>
     </div> 
 </div>
-<div class="w-[100%] pt-16"></div>
 
 {#if postData.fallguyscredits != null}
+    <div class="w-[100%] pt-8"></div>
     <FallGuysCredits />
 {/if}
 
 {#if postData.fnfcredits != null}
+    <div class="w-[100%] pt-8"></div>
     <FNFCredits />
 {/if}
+
+<Footer />
 
 <style global>
     @tailwind base;
@@ -142,6 +146,4 @@
     <meta name="theme-color" content="#96e3ff">
     <meta name="twitter:card" value="summary">
     <meta content={"https://bobbie.dev/"+postData.image_name} property="og:image">
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369" crossorigin="anonymous"></script>
 </svelte:head>

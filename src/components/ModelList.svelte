@@ -11,7 +11,7 @@
     export const allData = data;
 </script>
 
-<div class="grid mx-auto w-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 w-[90%] 2xl:w-[75%] pt-32 pb-8 gap-8 container">
+<div class="grid mx-auto w-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 w-[90%] 2xl:w-[75%] pt-32 pb-0 gap-8 container">
 
     {#each allData as item}
         {#if item.hidden !== true}
@@ -20,7 +20,6 @@
             {/if}
         {/if}
     {/each}
-
 
 </div>
 
@@ -38,6 +37,7 @@
 
     body{
         background-color: #121212;
+        min-height: 100%;
     }
 
     p, button{
@@ -68,6 +68,4 @@
     <meta content="bobbie.dev" property="og:site_name">
     <meta name="theme-color" content="#96e3ff">
     <meta name="twitter:card" value="summary">
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369" crossorigin="anonymous"></script>
 </svelte:head>
