@@ -1,22 +1,38 @@
 {
-  "name": "learn-starter",
-  "version": "0.1.0",
-  "private": true,
+  "name": "bobbie-dev",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export -o docs",
-    "start": "next start",
-    "deploy": "next build && next export -o docs && git checkout -- docs/.nojekyll && git checkout -- docs/CNAME && git add docs && git commit -m \"chore: regen site\" && git push origin master"
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build && shx cp -r ./build/ ./docs/ && shx cp .nojekyll ./docs/ && shx cp CNAME ./docs/",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "postcss-load-config": "^3.1.1",
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "shx": "^0.3.4",
+    "svelte": "^3.44.0",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "tailwindcss": "^3.0.15",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
   "dependencies": {
-    "bootstrap": "^4.5.0",
-    "fs": "0.0.1-security",
-    "gray-matter": "^4.0.2",
-    "next": "9.3.5",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1",
-    "react-router": "^5.2.0",
-    "react-scripts": "^3.4.1"
+    "@sveltejs/adapter-static": "file:../kit/packages/adapter-static",
+    "@sveltejs/kit": "file:../kit/packages/kit"
   }
 }
