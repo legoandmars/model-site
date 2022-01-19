@@ -163,7 +163,8 @@
         "model": {
             "name": "Drip Notes",
             "description": "DRIP NOTES DRIP NOTES DRIP NOTES. Original among drip model made by [RTFKT Studios](https://sketchfab.com/3d-models/among-drip-04f3d7452bac4799bcab779e21d60f16)."
-        }
+        },
+        "hidden": true
     },
     {
         "image_name": "Amelia Wallson.png",

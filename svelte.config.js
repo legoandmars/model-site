@@ -18,7 +18,7 @@ const config = {
 		prerender: {
 			subfolders: false,
 			onError: handleError,
-			entries: ["/FallGuys"]
+			entries: ["/FallGuys", "/DripNotes"]
 		}	
 	}
 };
