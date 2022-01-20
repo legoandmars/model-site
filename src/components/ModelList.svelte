@@ -11,7 +11,7 @@
     export const allData = data;
 </script>
 
-<div class="w-auto">
+<div class="mx-auto w-[90%] 2xl:w-[75%] pt-32 pb-2 sm:pt-16 sm:pb-16">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369"
     crossorigin="anonymous"></script>
     <!-- Responsive ad unit -->
