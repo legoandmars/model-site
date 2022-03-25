@@ -12,10 +12,10 @@
 </script>
 
 <div class="mx-auto w-[90%] 2xl:w-[75%] pt-32 pb-2 sm:pt-16 sm:pb-16" align="center">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369"
-    crossorigin="anonymous"></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8003053308644369"
+    crossorigin="anonymous"></script> -->
     <!-- Responsive ad unit -->
-    <ins class="adsbygoogle"
+    <!-- <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8003053308644369"
         data-ad-slot="3670690695"
@@ -23,7 +23,25 @@
         data-full-width-responsive="true"></ins>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    </script> -->
+    <div id="953660264">
+
+        <script type="text/javascript">
+    
+            try {
+    
+                window._mNHandle.queue.push(function (){
+    
+                    window._mNDetails.loadTag("953660264", "970x250", "953660264");
+    
+                });
+    
+            }
+    
+            catch (error) {}
+    
+        </script>
+    </div>
 </div>
 
 <div class="grid mx-auto w-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 w-[90%] 2xl:w-[75%] pb-0 gap-8 container">
